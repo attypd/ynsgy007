@@ -1,16 +1,16 @@
 🌟港澳台新马,#genre#
-凤凰中文,http://url.cdnhs.store:43264/hstw.php?id=MytvPhoenixChinese
-凤凰香港,http://url.cdnhs.store:43264/hstw.php?id=MytvPhoenixHK
-凤凰资讯,http://url.cdnhs.store:43264/hstw.php?id=MytvPhoenixInfo
-翡翠台,http://url.cdnhs.store:43264/hstw.php?id=jadehk
-无线新闻,http://url.cdnhs.store:43264/hstw.php?id=hknp
-澳视澳门,http://url.cdnhs.store:43264/hstw.php?id=tdm1
-星影电影,http://url.cdnhs.store:43264/nowtv.php?id=10
-爆谷电影,http://url.cdnhs.store:43264/nowtv.php?id=57
-美亚电影,http://url.cdnhs.store:43264/mytv.php?id=17
-Astro华丽台,http://url.cdnhs.store:43264/mytv.php?id=21
-新传媒8频道,http://url.cdnhs.store:43264/nowtv.php?id=31
-HBO HD,http://url.cdnhs.store:43264/nowtv.php?id=56
+凤凰中文,http://url.cdnhs.store:45202/hstw.php?id=MytvPhoenixChinese
+凤凰香港,http://url.cdnhs.store:45202/hstw.php?id=MytvPhoenixHK
+凤凰资讯,http://url.cdnhs.store:45202/hstw.php?id=MytvPhoenixInfo
+翡翠台,http://url.cdnhs.store:45202/hstw.php?id=jadehk
+无线新闻,http://url.cdnhs.store:45202/hstw.php?id=hknp
+澳视澳门,http://url.cdnhs.store:45202/hstw.php?id=tdm1
+星影电影,http://url.cdnhs.store:45202/nowtv.php?id=10
+爆谷电影,http://url.cdnhs.store:45202/nowtv.php?id=57
+美亚电影,http://url.cdnhs.store:45202/mytv.php?id=17
+Astro华丽台,http://url.cdnhs.store:45202/mytv.php?id=21
+新传媒8频道,http://url.cdnhs.store:45202/nowtv.php?id=31
+HBO HD,http://url.cdnhs.store:45202/nowtv.php?id=56
 
 午夜经典,#genre#
 松视3,http://url.cdnhs.store:45202/hstw.php?id=SonSee3hd
@@ -27,4 +27,4 @@ happy,http://url.cdnhs.store:45202/hstw.php?id=HappyHD
 花花公子,http://url.cdnhs.store:45202/hstw.php?id=PlayboyTV
 日本1,http://url.cdnhs.store:45202/hstw.php?id=IdolspecialtychannelPigooHD
 
-# 自动对时: 2026-01-16 20:55:32
+# 自动对时: 2026-01-16 21:41:18
