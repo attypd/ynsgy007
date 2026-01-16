@@ -2,7 +2,7 @@ import requests
 import concurrent.futures
 import time
 
-# 1. 你抓包的所有港台新马 ID (置顶)
+# 1. 港台新马 ID 列表 (仅用于 total_live.txt)
 MY_HSTW_LIST = [
     ("凤凰中文", "MytvPhoenixChinese"), ("凤凰香港", "MytvPhoenixHK"), ("凤凰资讯", "MytvPhoenixInfo"),
     ("翡翠台", "jadehk"), ("无线新闻", "hknp"), ("澳视澳门", "tdm1"),
@@ -16,7 +16,7 @@ MY_HSTW_LIST = [
     ("华视", "ctsfhd"), ("TVBS精彩台", "tvbse"), ("TVBS欢乐", "tvbsent"), ("TVBSHD", "tvbshshd")
 ]
 
-# 2. 午夜经典频道 (保持原始 ID)
+# 2. 午夜经典分组 (原本的核心功能)
 MIDNIGHT_CHANNELS = [
     ("松视3", "SonSee3hd"), ("松视1", "sonsee1"), ("松视2", "sonsee2"),
     ("彩虹e", "RainBowEhd"), ("彩虹k", "RainBowK"), ("彩虹电影", "Rainbowmovie"),
@@ -46,34 +46,35 @@ def update_all():
     port = get_latest_port()
     hstw_base = f"http://url.cdnhs.store:{port}/hstw.php?id="
     
-    # 构建最终内容
-    lines = ["🌟港澳台新马,#genre#"]
-    # 添加港台新马
-    for name, cid in MY_HSTW_LIST:
-        lines.append(f"{name},{hstw_base}{cid}")
-    
-    # 特殊处理电影 ID (这些可能使用 nowtv.php 或 mytv.php)
-    lines.append("星影电影,http://url.cdnhs.store:" + port + "/nowtv.php?id=10")
-    lines.append("爆谷电影,http://url.cdnhs.store:" + port + "/nowtv.php?id=57")
-    lines.append("美亚电影,http://url.cdnhs.store:" + port + "/mytv.php?id=17")
-
-    # 添加午夜经典
-    lines.append("\n午夜经典,#genre#")
+    # --- 第一步：构建只含午夜经典的 sys_config.txt 内容 ---
+    midnight_lines = ["午夜经典,#genre#"]
     for name, cid in MIDNIGHT_CHANNELS:
-        lines.append(f"{name},{hstw_base}{cid}")
+        midnight_lines.append(f"{name},{hstw_base}{cid}")
     
-    # 写入北京时间
     bj_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time() + 8*3600))
-    lines.append(f"\n# 自动对时: {bj_time}")
+    midnight_lines.append(f"\n# 自动对时: {bj_time}")
+    midnight_content = "\n".join(midnight_lines)
+    
+    with open("sys_config.txt", "w", encoding="utf-8") as f:
+        f.write(midnight_content)
 
-    final_content = "\n".join(lines)
+    # --- 第二步：构建全量合并的 total_live.txt 内容 ---
+    total_lines = ["🌟港澳台新马,#genre#"]
+    for name, cid in MY_HSTW_LIST:
+        total_lines.append(f"{name},{hstw_base}{cid}")
     
-    # 物理更新两个文件
-    for filename in ["total_live.txt", "sys_config.txt"]:
-        with open(filename, "w", encoding="utf-8") as f:
-            f.write(final_content)
+    # 插入特殊路径电影
+    total_lines.append(f"星影电影,http://url.cdnhs.store:{port}/nowtv.php?id=10")
+    total_lines.append(f"爆谷电影,http://url.cdnhs.store:{port}/nowtv.php?id=57")
+    total_lines.append(f"美亚电影,http://url.cdnhs.store:{port}/mytv.php?id=17")
     
-    print(f"执行完毕！最新有效端口: {port}")
+    # 拼接刚才生成的午夜经典
+    total_lines.append("\n" + midnight_content)
+    
+    with open("total_live.txt", "w", encoding="utf-8") as f:
+        f.write("\n".join(total_lines))
+    
+    print(f"执行完毕！sys_config 已还原纯净，total_live 已完成合并。端口: {port}")
 
 if __name__ == "__main__":
     update_all()
