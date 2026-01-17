@@ -7,7 +7,7 @@ HSTW_LIST = [
     # 凤凰与港澳
     ("凤凰中文", "MytvPhoenixChinese", "hstw.php"), ("凤凰香港", "MytvPhoenixHK", "hstw.php"),
     ("凤凰资讯", "MytvPhoenixInfo", "hstw.php"), ("翡翠台", "jadehk", "hstw.php"),
-    ("无线新闻", "hknp", "hstw.php"), ("澳视澳门", "tdm1", "hstw.php"),
+    ("无线新闻", "hknp", "hstw.php"), ("澳视澳门", "tdm1", "hstw.php"),("POPC", "MytvPopC", "hstw.php"),
     # 星马系列
     ("佳乐", "JiaLe", "hstw.php"), ("E乐", "ELe", "hstw.php"),
     ("如意台", "HubRuyi", "hstw.php"), ("剧乐酷", "JuLeCool", "hstw.php"),
