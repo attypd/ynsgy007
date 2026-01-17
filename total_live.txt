@@ -42,7 +42,7 @@ CNEK,http://url.cdnhs.store:47042/hstw.php?id=cnex
 原住民频道,http://url.cdnhs.store:47042/hstw.php?id=titv
 客家电视台,http://url.cdnhs.store:47042/hstw.php?id=hakkatv
 中视采青,http://url.cdnhs.store:47042/hstw.php?id=ctvbravofhd
-中视经典,http://url.cdnhs.store:47042/hstw.php?id=id=ctvclassic
+中视经典,http://url.cdnhs.store:47042/hstw.php?id=ctvclassic
 中视,http://url.cdnhs.store:47042/hstw.php?id=ctvhshd
 公视,http://url.cdnhs.store:47042/hstw.php?id=PTSHD
 公视戏剧,http://url.cdnhs.store:47042/hstw.php?id=ptsdrama
@@ -82,4 +82,4 @@ happy,http://url.cdnhs.store:47042/hstw.php?id=HappyHD
 花花公子,http://url.cdnhs.store:47042/hstw.php?id=PlayboyTV
 日本1,http://url.cdnhs.store:47042/hstw.php?id=IdolspecialtychannelPigooHD
 
-# 自动对时: 2026-01-17 12:04:51
+# 自动对时: 2026-01-17 12:19:12
