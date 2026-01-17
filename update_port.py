@@ -28,7 +28,7 @@ HSTW_LIST = [
     ("CNEK", "cnex", "hstw.php"), ("麦哲伦频道", "Magellantv", "hstw.php"),
     ("原住民频道", "titv", "hstw.php"), ("客家电视台", "hakkatv", "hstw.php"),
     # 台湾系列
-    ("中视采青", "ctvbravofhd", "hstw.php"), ("中视经典", "id=ctvclassic", "hstw.php"),
+    ("中视采青", "ctvbravofhd", "hstw.php"), ("中视经典", "ctvclassic", "hstw.php"),
     ("中视", "ctvhshd", "hstw.php"), ("公视", "PTSHD", "hstw.php"),
     ("公视戏剧", "ptsdrama", "hstw.php"), ("民视", "ftvfhd", "hstw.php"),
     ("公视台语台", "PTS2", "hstw.php"), ("民视第一台", "45", "hstw.php"),
