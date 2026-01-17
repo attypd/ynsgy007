@@ -1,16 +1,16 @@
 午夜经典,#genre#
-松视3,http://url.cdnhs.store:44678/hstw.php?id=SonSee3hd
-松视1,http://url.cdnhs.store:44678/hstw.php?id=sonsee1
-松视2,http://url.cdnhs.store:44678/hstw.php?id=sonsee2
-彩虹e,http://url.cdnhs.store:44678/hstw.php?id=RainBowEhd
-彩虹k,http://url.cdnhs.store:44678/hstw.php?id=RainBowK
-彩虹电影,http://url.cdnhs.store:44678/hstw.php?id=Rainbowmovie
-潘多拉,http://url.cdnhs.store:44678/hstw.php?id=PandoraWanmei
-惊艳成人电影,http://url.cdnhs.store:44678/hstw.php?id=Amazingchannel
-香蕉台,http://url.cdnhs.store:44678/hstw.php?id=Bananachannel
-happy,http://url.cdnhs.store:44678/hstw.php?id=HappyHD
-极限电影台,http://url.cdnhs.store:44678/hstw.php?id=JStarMovies
-花花公子,http://url.cdnhs.store:44678/hstw.php?id=PlayboyTV
-日本1,http://url.cdnhs.store:44678/hstw.php?id=IdolspecialtychannelPigooHD
+松视3,http://url.cdnhs.store:49338/hstw.php?id=SonSee3hd
+松视1,http://url.cdnhs.store:49338/hstw.php?id=sonsee1
+松视2,http://url.cdnhs.store:49338/hstw.php?id=sonsee2
+彩虹e,http://url.cdnhs.store:49338/hstw.php?id=RainBowEhd
+彩虹k,http://url.cdnhs.store:49338/hstw.php?id=RainBowK
+彩虹电影,http://url.cdnhs.store:49338/hstw.php?id=Rainbowmovie
+潘多拉,http://url.cdnhs.store:49338/hstw.php?id=PandoraWanmei
+惊艳成人电影,http://url.cdnhs.store:49338/hstw.php?id=Amazingchannel
+香蕉台,http://url.cdnhs.store:49338/hstw.php?id=Bananachannel
+happy,http://url.cdnhs.store:49338/hstw.php?id=HappyHD
+极限电影台,http://url.cdnhs.store:49338/hstw.php?id=JStarMovies
+花花公子,http://url.cdnhs.store:49338/hstw.php?id=PlayboyTV
+日本1,http://url.cdnhs.store:49338/hstw.php?id=IdolspecialtychannelPigooHD
 
-# 自动对时: 2026-01-17 18:45:27
+# 自动对时: 2026-01-17 19:20:52
