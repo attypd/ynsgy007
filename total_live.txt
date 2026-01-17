@@ -5,6 +5,7 @@
 翡翠台,http://url.cdnhs.store:49561/hstw.php?id=jadehk
 无线新闻,http://url.cdnhs.store:49561/hstw.php?id=hknp
 澳视澳门,http://url.cdnhs.store:49561/hstw.php?id=tdm1
+POPC,http://url.cdnhs.store:49561/hstw.php?id=MytvPopC
 佳乐,http://url.cdnhs.store:49561/hstw.php?id=JiaLe
 E乐,http://url.cdnhs.store:49561/hstw.php?id=ELe
 如意台,http://url.cdnhs.store:49561/hstw.php?id=HubRuyi
@@ -82,4 +83,4 @@ happy,http://url.cdnhs.store:49561/hstw.php?id=HappyHD
 花花公子,http://url.cdnhs.store:49561/hstw.php?id=PlayboyTV
 日本1,http://url.cdnhs.store:49561/hstw.php?id=IdolspecialtychannelPigooHD
 
-# 自动对时: 2026-01-17 16:32:44
+# 自动对时: 2026-01-17 16:46:59
