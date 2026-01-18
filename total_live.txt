@@ -3,7 +3,6 @@
 凤凰香港,http://url.cdnhs.store:48867/hstw.php?id=MytvPhoenixHK
 凤凰资讯,http://url.cdnhs.store:48867/hstw.php?id=MytvPhoenixInfo
 翡翠台,http://url.cdnhs.store:48867/hstw.php?id=jadehk
-无线新闻,http://url.cdnhs.store:48867/hstw.php?id=hknp
 澳视澳门,http://url.cdnhs.store:48867/hstw.php?id=tdm1
 POPC,http://url.cdnhs.store:48867/hstw.php?id=MytvPopC
 佳乐,http://url.cdnhs.store:48867/hstw.php?id=JiaLe
@@ -66,7 +65,7 @@ TVBSHD,http://url.cdnhs.store:48867/hstw.php?id=tvbshshd
 美亚电影,http://url.cdnhs.store:48867/mytv.php?id=17
 Astro华丽台,http://url.cdnhs.store:48867/mytv.php?id=21
 新传媒8频道,http://url.cdnhs.store:48867/nowtv.php?id=31
-星影台,http://url.cdnhs.store:48867/nowtv.php?id=56
+曝谷星影台,http://url.cdnhs.store:48867/nowtv.php?id=56
 无线新闻,http://url.cdnhs.store:48867/mytv.php?id=3
 
 午夜经典,#genre#
@@ -84,4 +83,4 @@ happy,http://url.cdnhs.store:48867/hstw.php?id=HappyHD
 花花公子,http://url.cdnhs.store:48867/hstw.php?id=PlayboyTV
 日本1,http://url.cdnhs.store:48867/hstw.php?id=IdolspecialtychannelPigooHD
 
-# 自动对时: 2026-01-18 12:31:49
+# 自动对时: 2026-01-18 12:49:31
