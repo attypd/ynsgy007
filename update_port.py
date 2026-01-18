@@ -44,7 +44,8 @@ HSTW_LIST = [
     ("美亚电影", "17", "mytv.php"), 
     ("Astro华丽台", "21", "mytv.php"),
     ("新传媒8频道", "31", "nowtv.php"), 
-    ("HBO HD", "56", "nowtv.php")
+    ("星影台", "56", "nowtv.php"),
+    ("无线新闻", "3", "mytv.php"),
 ]
 
 # 2. 午夜经典 (原始核心)
