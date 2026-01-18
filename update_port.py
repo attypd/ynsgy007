@@ -2,12 +2,12 @@ import requests
 import concurrent.futures
 import time
 
-# 1. 港澳台新马全量 ID 库 (严格校对 ID 与 路径)
+# 1. 港澳台新马全量 ID 库 (一个不漏)
 HSTW_LIST = [
     # 凤凰与港澳
     ("凤凰中文", "MytvPhoenixChinese", "hstw.php"), ("凤凰香港", "MytvPhoenixHK", "hstw.php"),
     ("凤凰资讯", "MytvPhoenixInfo", "hstw.php"), ("翡翠台", "jadehk", "hstw.php"),
-    ("无线新闻", "hknp", "hstw.php"), ("澳视澳门", "tdm1", "hstw.php"),("POPC", "MytvPopC", "hstw.php"),
+    ("澳视澳门", "tdm1", "hstw.php"), ("POPC", "MytvPopC", "hstw.php"),
     # 星马系列
     ("佳乐", "JiaLe", "hstw.php"), ("E乐", "ELe", "hstw.php"),
     ("如意台", "HubRuyi", "hstw.php"), ("剧乐酷", "JuLeCool", "hstw.php"),
@@ -38,17 +38,17 @@ HSTW_LIST = [
     ("TVBS精彩台", "tvbse", "hstw.php"), ("TVBS欢乐", "tvbsent", "hstw.php"),
     ("TVBSHD", "tvbshshd", "hstw.php"), ("八大第一台", "badafirst", "hstw.php"),
     ("八大精彩台", "Badafirst", "hstw.php"),
-    # 电影与特殊频道 (重点校对区)
+    # 电影与特殊频道
     ("星影电影", "10", "nowtv.php"), 
     ("爆谷电影", "57", "nowtv.php"),
     ("美亚电影", "17", "mytv.php"), 
     ("Astro华丽台", "21", "mytv.php"),
     ("新传媒8频道", "31", "nowtv.php"), 
-    ("星影台", "56", "nowtv.php"),
-    ("无线新闻", "3", "mytv.php"),
+    ("曝谷星影台", "56", "nowtv.php"), # HBO已改名
+    ("无线新闻", "3", "mytv.php")
 ]
 
-# 2. 午夜经典 (原始核心)
+# 2. 午夜经典 (确保每一个都在)
 MIDNIGHT_CHANNELS = [
     ("松视3", "SonSee3hd"), ("松视1", "sonsee1"), ("松视2", "sonsee2"),
     ("彩虹e", "RainBowEhd"), ("彩虹k", "RainBowK"), ("彩虹电影", "Rainbowmovie"),
@@ -60,46 +60,50 @@ MIDNIGHT_CHANNELS = [
 
 def check_port(port):
     headers = {'User-Agent': 'mitv', 'Range': 'bytes=0-'}
-    url = f"http://url.cdnhs.store:{port}/hstw.php?id=SonSee3hd"
+    url = f"http://url.cdnhs.store:{port}/mytv.php?id=3"
     try:
-        res = requests.head(url, headers=headers, timeout=0.8, allow_redirects=False)
+        # 增加超时到2秒，确保抓取302跳转
+        res = requests.head(url, headers=headers, timeout=2.0, allow_redirects=False)
         if res.status_code in [200, 302]: return str(port)
     except: return None
 
 def get_latest_port():
+    # 优先探测你抓包的 47838
+    if check_port(47838): return "47838"
+    # 扫描范围
     ports = range(40000, 50000)
-    with concurrent.futures.ThreadPoolExecutor(max_workers=150) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
         results = executor.map(check_port, ports)
         for r in results:
             if r: return r
-    return "44678"
+    return "47838"
 
 def update_all():
     port = get_latest_port()
     base_url = f"http://url.cdnhs.store:{port}"
+    bj_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time() + 8*3600))
     
-    # --- 生成 sys_config.txt (只留午夜经典) ---
+    # --- 1. 生成只含午夜经典的 sys_config.txt ---
     midnight_lines = ["午夜经典,#genre#"]
     for name, cid in MIDNIGHT_CHANNELS:
         midnight_lines.append(f"{name},{base_url}/hstw.php?id={cid}")
-    
-    bj_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time() + 8*3600))
     midnight_lines.append(f"\n# 自动对时: {bj_time}")
     
     with open("sys_config.txt", "w", encoding="utf-8") as f:
         f.write("\n".join(midnight_lines))
 
-    # --- 生成 total_live.txt (全量合并，校对星影/爆谷/HBO) ---
+    # --- 2. 生成全频道 total_live.txt ---
     total_lines = ["🌟港澳台新马,#genre#"]
     for name, cid, api in HSTW_LIST:
         total_lines.append(f"{name},{base_url}/{api}?id={cid}")
     
+    # 将午夜经典也合并进全频道文件
     total_lines.append("\n" + "\n".join(midnight_lines))
     
     with open("total_live.txt", "w", encoding="utf-8") as f:
         f.write("\n".join(total_lines))
     
-    print(f"校对更新完成！当前端口: {port}")
+    print(f"全频道同步完成！当前端口: {port}")
 
 if __name__ == "__main__":
     update_all()
