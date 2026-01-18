@@ -5,7 +5,7 @@ on:
     branches: [ main ]
   workflow_dispatch:
   schedule:
-    - cron: '*/15 * * * *'  # 每15分钟自动运行一次
+    - cron: '*/15 * * * *'
 
 jobs:
   build:
