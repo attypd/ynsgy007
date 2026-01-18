@@ -10,7 +10,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # 注意：下面这一行必须和 runs-on 对齐，前面是 4 个空格
     retention-days: 1
+    
     steps:
       - name: Checkout codes
         uses: actions/checkout@v2
@@ -28,7 +30,6 @@ jobs:
 
       - name: Update repository
         run: |
-          
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
