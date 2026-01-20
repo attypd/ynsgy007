@@ -1,34 +1,21 @@
-name: sync_task
-
+name: 15分钟自动扫描对时更新
 on:
-  push:
-    branches: [ main ]
-  workflow_dispatch:
   schedule:
     - cron: '*/15 * * * *'
-
+  workflow_dispatch:
 jobs:
-  build:
+  run_update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout codes
-        uses: actions/checkout@v2
-
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
-
-      - name: Install dependencies
+      - uses: actions/checkout@v3
+      - name: 安装依赖
         run: pip install requests
-
-      - name: Run search script
-        run: python update_port.py
-
-      - name: Update repository
+      - name: 运行扫描脚本
+        run: python update_all.py
+      - name: 提交并对时
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git commit --allow-empty -m "Auto sync at $(date)"
+          git commit -m "自动更新对时: $(date)" || exit 0
           git push
