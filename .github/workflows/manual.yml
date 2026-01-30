@@ -10,7 +10,7 @@ jobs:
       - name: 执行解密脚本
         run: |
           pip install requests
-          python dec_to_txt.py
+          python manual_dec_tool.py
       - name: 保存并更新文件
         run: |
           git config --local user.email "action@github.com"
