@@ -1,53 +1,52 @@
 import requests
 import json
+import os
 
 def start_dec():
-    # 37o 核心接口地址
+    # 核心接口地址
     api_url = "http://ltjm.37o.cc/index.php" 
     
-    # --- 以后你只需修改下面这两项 ---
-    my_group_name = "我的私人源"  # 这里填你想要的分组名称
-    target_url = "这里填入你抓包获取的加密URL" 
-    # ----------------------------
+    # ==========================================
+    # 【你手动修改这 3 行，即截图涂鸦位置】
+    # ==========================================
+    my_app_name = "XXX直播"           # MYlive
+    my_package = "com.vv.test"        # com.my.live
+    target_url = "这里填登录地址"      # 填入抓包拿到的登录URL
+    # =http://api.cdnhs.store/iptv//login3.php
 
-    # 以下是根据你的截图 写死的固定参数
     payload = {
-        "appname": "XXX直播",
-        "packagename": "com.vv.test",
-        "sig": "12315",
+        "appname": my_app_name,
+        "packagename": my_package,
+        "sig": "12315",                   # 已根据截图写死
         "url": target_url, 
-        "mac": "c1:bd:92:03:55:bc",        # 固定参数
-        "androidid": "5cb5bd4ece1d700c",   # 固定参数
-        "model": "TAL-AN000"               # 固定参数
+        "mac": "c1:bd:92:03:55:bc",       # 已根据截图写死
+        "androidid": "5cb5bd4ece1d700c",  # 已根据截图写死
+        "model": "TAL-AN000"              # 已根据截图写死
     }
 
     headers = {
         "User-Agent": "Mozilla/5.0 (Linux; Android 11; TAL-AN000)",
-        "Content-Type": "application/json; charset=UTF-8",
-        "Referer": "http://ltjm.37o.cc/diyp.php" # 模拟成功页面的入口
+        "Content-Type": "application/json; charset=UTF-8"
     }
-
-    print(f"正在手动解密地址: {target_url}")
 
     try:
         response = requests.post(api_url, data=json.dumps(payload), headers=headers)
         if response.status_code == 200:
             raw_data = response.text
+            # 转换为 TXT 标准格式：APP名,#genre# + 原始分组数据
+            txt_format = f"{my_app_name},#genre#\n{raw_data}"
             
-            # 自动生成标准 TXT 分组格式
-            txt_format = f"{my_group_name},#genre#\n{raw_data}"
+            # 动态命名文件：APP名 + 解密结果.txt
+            file_name = f"{my_app_name}解密结果.txt"
             
-            # 保存为 live.txt
-            with open("live.txt", "w", encoding="utf-8") as f:
+            with open(file_name, "w", encoding="utf-8") as f:
                 f.write(txt_format)
             
-            print("--- 解密成功，格式已转换 ---")
-            print(txt_format)
-            print("--------------------------")
+            print(f"✅ 执行成功！生成文件：{file_name}")
         else:
-            print(f"解密失败，状态码: {response.status_code}")
+            print(f"❌ 接口请求失败，代码: {response.status_code}")
     except Exception as e:
-        print(f"脚本运行出错: {e}")
+        print(f"⚠️ 出错: {e}")
 
 if __name__ == "__main__":
     start_dec()
