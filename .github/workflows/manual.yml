@@ -1,0 +1,20 @@
+name: 手动执行解密转换
+on: 
+  workflow_dispatch: # 仅手动触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: 执行解密脚本
+        run: |
+          pip install requests
+          python dec_to_txt.py
+      - name: 保存并更新文件
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "ManualBot"
+          git add live.txt
+          git commit -m "手动更新直播源" || exit 0
+          git push
