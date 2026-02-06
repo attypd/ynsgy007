@@ -1,7 +1,7 @@
 
-我的收藏#genre#
+我的收藏,#genre#
 
-香港HK#genre#
+香港HK,#genre#
 翡翠台,http://url.cdnhs.store:41761/mytv.php?id=1
 翡翠台,http://url.cdnhs.store:41761/hstw.php?id=MytvTvbJade
 翡翠台,http://url.cdnhs.store:41761/hstw.php?id=TVBjadeHK
@@ -625,7 +625,7 @@ mySUPER話當年,http://url.cdnhs.store:41761/hstw.php?id=MytvTalkAboutThePast
 中国电影频道,http://url.cdnhs.store:41761/hstw.php?id=MytvChinaMovie
 中国电影频道,http://url.cdnhs.store:41761/hstw.php?id=CMCMoviesHK
 
-香港HK(备）#genre#
+香港HK(备）,#genre#
 明珠台,http://hls.168.us.kg/u/84/master.m3u8
 明珠台,http://iptv.4666888.xyz/iptv2A.php?id=29
 明珠台,https://o11.163189.xyz/stream/tvb/mzt/
@@ -999,7 +999,7 @@ RHK32,http://php.jdshipin.com/TVOD/iptv.php?id=rthk32
 澳门体育1080p,https://cdn6.101.qzz.io/163189/amty
 星空卫视576P,http://iot-mqqt.111yao.cn:8080/live/diyp_xingkong.m3u8
 
-中国大陆#genre#
+中国大陆,#genre#
 CCTV1,http://url.cdnhs.store:41761/hstw.php?id=cctv1hd
 CCTV1,http://url.cdnhs.store:41761/hstw.php?id=CCTV1HD4M
 CCTV1,http://live.cooltv.top/tv/aishang.php?id=cctv1hd
@@ -1122,7 +1122,7 @@ CETV4,http://url.cdnhs.store:41761/hstw.php?id=CETV4SD
 广东体育,http://url.cdnhs.store:41761/hstw.php?id=GDsports
 CCTV14,http://live.cooltv.top/tv/aishang.php?id=cctv14hd
 
-国内高清#genre#
+国内高清,#genre#
 CCTV1,http://url.cdnhs.store:41761/xjcn.php?id=cctv1
 CCTV2,http://url.cdnhs.store:41761/xjcn.php?id=cctv2
 CCTV3,http://url.cdnhs.store:41761/xjcn.php?id=cctv3
@@ -1188,7 +1188,7 @@ CCTV央视台球,http://url.cdnhs.store:41761/xjcn.php?id=汕头文旅
 江西卫视,http://live.cooltv.top/tv/aishang.php?id=jxwshd
 河南卫视,http://live.cooltv.top/tv/aishang.php?id=hnwshd
 
-新加坡#genre#
+新加坡,#genre#
 Ch 5,http://url.cdnhs.store:41761/hstw.php?id=Channel5HD
 Ch 8,http://url.cdnhs.store:41761/hstw.php?id=Channel8HD
 Ch U,http://url.cdnhs.store:41761/hstw.php?id=ChannelUHD
@@ -1296,7 +1296,7 @@ Crime Investigation,http://url.cdnhs.store:41761/hstw.php?id=CrimeInvestigationH
 BBC Lifestyle,http://url.cdnhs.store:41761/hstw.php?id=BBCLifestyleFHD
 BBC Lifestyle,http://url.cdnhs.store:41761/hstw.php?id=BBCLifestyleHD
 
-中国台湾#genre#
+中国台湾,#genre#
 中视,http://url.cdnhs.store:41761/hstw.php?id=ctvtwhd
 中视,http://url.cdnhs.store:41761/hstw.php?id=ctvhshd
 中视经典,http://url.cdnhs.store:41761/hstw.php?id=ctvclassic
@@ -1613,7 +1613,7 @@ MezzoLive,http://url.cdnhs.store:41761/hstw.php?id=mezzolive
 信大,http://url.cdnhs.store:41761/hstw.php?id=sindatv
 大立,http://url.cdnhs.store:41761/hstw.php?id=dalitv
 
-韩国#genre#
+韩国,#genre#
 KBS World,http://url.cdnhs.store:41761/hstw.php?id=KBSWorldFHD
 KBS World,http://url.cdnhs.store:41761/hstw.php?id=KBSWorld
 KBS World,http://url.cdnhs.store:41761/hstw.php?id=kbsworld
@@ -1691,7 +1691,7 @@ BrainTV,http://url.cdnhs.store:41761/hstw.php?id=Braintv
 CTS,http://url.cdnhs.store:41761/hstw.php?id=cts
 GTV Luxury,http://url.cdnhs.store:41761/hstw.php?id=gtvkr
 
-广东频道#genre#
+广东频道,#genre#
 广东珠江576p,http://27.41.245.32:801/hls/25/index.m3u8
 广东珠江576p,http://27.41.245.32:801/hls/25/index.m3u8
 广东珠江720p,https://t.freetv.fun/live/yan-dong-zhu-jiang-2.m3u8
@@ -1772,7 +1772,7 @@ GTV Luxury,http://url.cdnhs.store:41761/hstw.php?id=gtvkr
 广州南国都市1080p,http://tencentplaygsm.gztv.com/live/nanguodushi.m3u8
 广州南国都市1080p,https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=550af55c0ea34ce492748481415b6dfa&txTime=1903e7b17de
 
-日本#genre#
+日本,#genre#
 100％ヒッツ！スペースシャワーTV プラス,http://url.cdnhs.store:41761/hstw.php?id=100HitsSpaceShowerTVPlusHD
 ABCテレビ,http://url.cdnhs.store:41761/hstw.php?id=ABCTV
 ＡＸＮ 海外ドラマ,http://url.cdnhs.store:41761/hstw.php?id=AXNj
@@ -1870,7 +1870,7 @@ WOWOWライブ,http://url.cdnhs.store:41761/hstw.php?id=WOWOWLiveHD
 鉄道チャンネル,http://url.cdnhs.store:41761/hstw.php?id=RailwayChannelHD
 関西テレビ,http://url.cdnhs.store:41761/hstw.php?id=KansaitvHD
 
-泰国#genre#
+泰国,#genre#
 CH3,http://url.cdnhs.store:41761/hstw.php?id=ch3
 CH5,http://url.cdnhs.store:41761/hstw.php?id=ch5
 CH7,http://url.cdnhs.store:41761/hstw.php?id=ch7
@@ -1903,7 +1903,7 @@ VTV8,http://url.cdnhs.store:41761/hstw.php?id=vtv8
 VTV9,http://url.cdnhs.store:41761/hstw.php?id=vtv9
 VTV CẦN THƠ,http://url.cdnhs.store:41761/hstw.php?id=vtvCanTho
 
-体育频道#genre#
+体育频道,#genre#
 bEIN Sports 1,http://url.cdnhs.store:41761/hstw.php?id=beINSPORTS1HK
 bEIN Sports 2,http://url.cdnhs.store:41761/hstw.php?id=beINSPORTS2HK
 bEIN Sports 3,http://url.cdnhs.store:41761/hstw.php?id=beINSPORTS3HK
@@ -1988,7 +1988,7 @@ BilliardsTV,http://url.cdnhs.store:41761/hstw.php?id=billiardtv
 tVN Sports,http://url.cdnhs.store:41761/hstw.php?id=tvnsports
 Spotv Prime,http://url.cdnhs.store:41761/hstw.php?id=sportsprime
 
-新闻频道#genre#
+新闻频道,#genre#
 RTM Asean,http://url.cdnhs.store:41761/hstw.php?id=RTMAseanFHD
 BeritaRTM,http://url.cdnhs.store:41761/hstw.php?id=BeritartmFHD
 BeritaRTM,http://url.cdnhs.store:41761/hstw.php?id=Beritartm
@@ -2020,7 +2020,7 @@ DW English,http://url.cdnhs.store:41761/hstw.php?id=DWHD
 France24,http://url.cdnhs.store:41761/hstw.php?id=France24_HD
 France24,http://url.cdnhs.store:41761/hstw.php?id=France24HD
 
-电影频道#genre#
+电影频道,#genre#
 摇滚电影,http://url.cdnhs.store:41761/hstw.php?id=MytvRockAction
 摇滚电影,http://url.cdnhs.store:41761/hstw.php?id=ROCKAction
 摇滚电影,http://url.cdnhs.store:41761/hstw.php?id=CRTX
@@ -2039,7 +2039,7 @@ CHC家庭电影,http://url.cdnhs.store:41761/hstw.php?id=chcfamily
 CHC影迷电影,http://url.cdnhs.store:41761/hstw.php?id=mgchchdmovie
 CHC影迷电影,http://url.cdnhs.store:41761/hstw.php?id=chchdmovie
 
-娱乐综合#genre#
+娱乐综合,#genre#
 無線衛星亞洲台,http://url.cdnhs.store:41761/hstw.php?id=MytvTvbsAsia
 無線衛星亞洲台,http://url.cdnhs.store:41761/hstw.php?id=TVBSAsiaHK
 亚洲综合娱乐台,http://url.cdnhs.store:41761/hstw.php?id=MYTVASIAVARIETY
@@ -2061,7 +2061,7 @@ MTV Live,http://url.cdnhs.store:41761/hstw.php?id=MTVLiveFHD
 MTV Live,http://url.cdnhs.store:41761/hstw.php?id=MTVLiveHD
 MTV Live,http://url.cdnhs.store:41761/hstw.php?id=MTVHD
 
-私密频道_1818#genre#
+私密频道_1818,#genre#
 松視1,http://url.cdnhs.store:41761/hstw.php?id=sonsee1
 松視1,https://z88.ubtvfans.comm/live/rx3/402/363561d75eea338ad686444eaceeb58e/index.m3u8
 松視2,http://url.cdnhs.store:41761/hstw.php?id=sonsee2
@@ -2206,7 +2206,7 @@ Banana香蕉台HD(梯子),http://z88.ubtvfans.com/live/rx3/2930/f1b639cdb783636b
 松视2,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/89.ts
 松视2,http://lc.aacalive.com:26789/i/ghjnvq5o/8c85fsaf/index.m3u8
 
-福利频道#genre#
+福利频道,#genre#
 极限电影台(梯子),http://z88.ubtvfans.com/live/rx3/2909/1f9debc5947d5756fec2908a357427e3/index.m3u8
 极限电影台(梯子),http://z88.ubtvfans.com/live/rx3/2909/1f9debc5947d5756fec2908a357427e3/index.m3u8
 极限电影台(梯子),http://lc.aacalive.com:26789/i/ghjnvq5o/8c855fdf/index.m3u8
