@@ -93,8 +93,7 @@ HOY 77,http://url.cdnhs.store:48370/hstw.php?id=hoytv
 HOY 77,http://url.cdnhs.store:48370/hstw.php?id=HOYChannel77
 HOY 77,http://url.cdnhs.store:48370/hstw.php?id=hoych77
 HOY 77,http://url.cdnhs.store:48370/hstw.php?id=hoytv
-
-香港国际财经台,http://url.cdnhs.store:48370/hkfree.php?id=10#genre#
+香港国际财经台,http://url.cdnhs.store:48370/hkfree.php?id=10
 RTHK 31,http://url.cdnhs.store:48370/hkfree.php?id=15
 RTHK 31,http://url.cdnhs.store:48370/hstw.php?id=rthk31hd
 RTHK 31,http://url.cdnhs.store:48370/hstw.php?id=RTHK31HD
@@ -491,18 +490,12 @@ TVB功夫台,http://url.cdnhs.store:48370/hstw.php?id=AsiaActionHK
 TVB功夫台,http://url.cdnhs.store:48370/hstw.php?id=AsiaActionCN
 TVB功夫台,http://url.cdnhs.store:48370/hstw.php?id=AsiaActionHK
 TVB功夫台,http://url.cdnhs.store:48370/hstw.php?id=AsiaActionCN
-
-香港卫视HKS,http://url.cdnhs.store:48370/hstw.php?id=HKS#genre#
-
-香港卫视HKS,http://url.cdnhs.store:48370/hstw.php?id=NHKS#genre#
-
-香港卫视HKS,http://url.cdnhs.store:48370/hstw.php?id=HKS#genre#
-
-香港卫视HKS,http://url.cdnhs.store:48370/hstw.php?id=HKS#genre#
-
-香港卫视HKS,http://url.cdnhs.store:48370/hstw.php?id=NHKS#genre#
-
-香港卫视HKS,http://url.cdnhs.store:48370/hstw.php?id=HKS#genre#
+香港卫视HKS,http://url.cdnhs.store:48370/hstw.php?id=HKS
+香港卫视HKS,http://url.cdnhs.store:48370/hstw.php?id=NHKS
+香港卫视HKS,http://url.cdnhs.store:48370/hstw.php?id=HKS
+香港卫视HKS,http://url.cdnhs.store:48370/hstw.php?id=HKS
+香港卫视HKS,http://url.cdnhs.store:48370/hstw.php?id=NHKS
+香港卫视HKS,http://url.cdnhs.store:48370/hstw.php?id=HKS
 RTHK 33,http://url.cdnhs.store:48370/hstw.php?id=rthk33hd
 RTHK 33,http://url.cdnhs.store:48370/hstw.php?id=rthk33hd
 RTHK 34,http://url.cdnhs.store:48370/hstw.php?id=rthk34hd
@@ -709,7 +702,6 @@ TVB千禧经典1080p,https://o11.163189.xyz/stream/live/tvbc/
 TVB千禧经典540p,http://74.91.26.218:82/live/tvbjd.m3u8
 TVB功夫720p,http://rihou.cc:555/tv/[Pd]无线功夫
 TVB功夫720p,https://cdn6.101.qzz.io/163189/yzwx
-TVB功夫720p,P2p://starvod.xyz:19806/6043814031384523bc272f4f87aeb298.ts
 TVB娱乐新闻台720p,https://cdn6.101.qzz.io/163189/ylxw
 TVB娱乐新闻台720p,http://rihou.cc:555/tv/[PL]无线娱乐
 ViuTV 1080p,https://stream1.freetv.fun/5fc2ba313b387d2b2538a2e46aee6266cc10890fc8b8ccf478498b82af6f7c3b.m3u8
@@ -912,10 +904,8 @@ NOW爆谷粤bx,http://rihou.cc:555/tv/[Bx]Now爆谷
 凤凰中文Bxtv,http://rihou.cc:555/tv/[Bx]凤凰中文
 娱乐新闻,http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
 华丽翡翠台,http://cdn10.163189.xyz/163189/jade
-
-香港翡翠台,http://php.jdshipin.com/smt.php?id=jade_twn#genre#
-
-香港翡翠-黄金台,http://php.jdshipin.com/smt.php?id=Tvbjade#genre#
+香港翡翠台,http://php.jdshipin.com/smt.php?id=jade_twn
+香港翡翠-黄金台,http://php.jdshipin.com/smt.php?id=Tvbjade
 无线功夫,http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
 POPC,http://bxtv.3a.ink/api.php?id=popc
 TVB星河国语,http://cdn10.163189.xyz/163189/xinghe
@@ -969,8 +959,7 @@ TVB J1美频高,http://php.jdshipin.com/PLTV/iptv.php?id=j1
 澳视澳门,http://r.jdshipin.com/n2YZI
 澳门体育,http://cdn6.163189.xyz/163189/amty
 重温经典,http://8.138.7.223/tv/cwjd.php
-
-香港卫视,http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8#genre#
+香港卫视,http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 NOW爆谷台,http://bxtv.3a.ink/api.php?id=baogu
 邵氏动作,http://38.75.136.137:98/gslb/dsdqpub/lbssdz.m3u8?auth=testpub
 邵氏喜剧,http://38.75.136.137:98/gslb/dsdqpub/lbssxj.m3u8?auth=testpub
