@@ -1,120 +1,116 @@
 import requests
-import datetime
-import time
+import re
+import socket
+import os
+from concurrent.futures import ThreadPoolExecutor
 
-# 1. 核心仓库（原位保留，你的松视、澳门在最前面）
-SOURCE_A = "https://raw.githubusercontent.com/attypd/shyio002/refs/heads/main/total_live.txt"
-SOURCE_B = "https://raw.githubusercontent.com/attypd/ynsgu003/refs/heads/main/total_live.txt"
+# 配置信息
+PHP_URL = "http://atryffad.usa3.345123.xyz/ww.php?id=2"
+TARGET_HOST = "url.cdnhs.store"
+PRIVATE_FILE = "my20262.6.txt"  # 仓库中的私密源文件
+# 端口扫描范围：8080 以及常用的 40000-50000
+SCAN_PORTS = [8080] + list(range(40000, 50001))
+TIMEOUT = 1.0
 
-# 2. 外部接口（调整顺序：今日影视排在第一位，确保天映和邵氏优先）
-EXTRA_SOURCES = [
-    "http://d.jsy777.top/box/tvzb9.txt",                  # 今日影视 (天映/邵氏重镇)
-    "http://rihou.cc:555/gggg.nzk",                      # 555接口
-    "http://iptv.4666888.xyz/FYTV.txt"
-]
-HK_SOURCE = "http://txt.gt.tc/users/HKTV.txt"            # hk快源 (目标：松视、芭蕉)
-
-# 3. 目标优选词库（加入邵氏）
-WANT_LIST = ["港", "澳", "台", "翡翠", "凤凰", "TVB", "HBO", "星河", "邵氏", "天映", "Celestial", "新加坡", "马来西亚", "探索", "地理"]
-
-# 4. 私密关键词
-SECRET_KEYWORDS = ["松视", "香蕉", "芭蕉", "极限", "成人", "福利", "AV", "18+", "午夜", "私密", "Jav"]
-
-# 5. 【严厉黑名单】屏蔽内地、地方台、歌曲、体育赛事、集数点播
-BLOCK_KEYWORDS = [
-    "CCTV", "央视", "卫视", "地方", "新闻", "教育", "熊猫", "综艺", "少儿", "纪录", "体育", 
-    "NBA", "赛事", "回放", "全场", "VS", "公开赛", "图文", "桌", "WTT", "乒乓球", "足球",
-    "歌曲", "音乐", "精选", "首", "专辑", "MV", "演唱会", "购物", "广播", "内地", "集", "点播", "轮播"
-]
-
-OUT_FILE = "bootstrap.min.css"
-
-def get_content(url, is_hktv=False):
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+def check_port_alive(port):
+    """检测端口是否存活 (只要能建立连接即视为有效)"""
     try:
-        # 给 hkTV 接口留足 60 秒强攻时间
-        timeout_val = 60 if is_hktv else 25
-        resp = requests.get(f"{url}?t={int(time.time())}", headers=headers, timeout=timeout_val)
-        if resp.status_code == 200:
-            resp.encoding = resp.apparent_encoding or 'utf-8'
-            return resp.text
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+            s.settimeout(TIMEOUT)
+            if s.connect_ex((TARGET_HOST, port)) == 0:
+                return str(port)
+    except:
+        pass
+    return None
+
+def scan_for_ports():
+    """多线程扫描 4w-5w 端口以获取最新有效端口"""
+    print(f"正在扫描 {TARGET_HOST} 的有效端口...")
+    with ThreadPoolExecutor(max_workers=100) as executor:
+        results = executor.map(check_port_alive, SCAN_PORTS)
+    return [p for p in results if p]
+
+def get_private_content(ports):
+    """读取并修正私密频道文件中的端口"""
+    if not os.path.exists(PRIVATE_FILE):
         return ""
-    except: return ""
-
-def main():
-    print("🚀 启动深度聚合：优先今日影视(天映/邵氏)，强攻 hkTV(松视/芭蕉)...")
-    content_a, content_b = get_content(SOURCE_A), get_content(SOURCE_B)
-    data_b = {l.split(",")[0].strip(): l.split(",")[1].strip() for l in content_b.split('\n') if "," in l and "http" in l}
     
-    recorded_ext = set() 
-    final_lines = []
-    ext_normal_lines = [] # 优选补位
-    ext_secret_lines = [] # 私密归类
+    with open(PRIVATE_FILE, 'r', encoding='utf-8') as f:
+        content = f.read()
     
-    bj_time = (datetime.datetime.now() + datetime.timedelta(hours=8)).strftime('%m-%d %H:%M')
+    # 提取最新的两个端口实现双线支持
+    main_port = ports[0]
+    # 将文件内所有旧端口替换为当前扫描到的最新有效端口
+    content = re.sub(r'url\.cdnhs\.store:\d+', f"{TARGET_HOST}:{main_port}", content)
+    return content
 
-    # --- 第一部分：仓库源 (原封不动) ---
-    if content_a:
-        for line in content_a.split('\n'):
-            line = line.strip()
-            if not line or "#genre#" in line:
-                if "#genre#" in line: final_lines.append(f"🛡️ 聚合热备 {bj_time},#genre#" if not final_lines else line)
-                continue
-            if "," in line and "http" in line:
-                name = line.split(",")[0].strip()
-                final_lines.append(line)
-                recorded_ext.add(name)
-                if name in data_b: final_lines.append(f"{name}(备),{data_b[name]}")
+def update_live():
+    valid_ports = []
+    php_content = ""
+    
+    # 1. 优先从 PHP 接口获取并验证端口
+    try:
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        resp = requests.get(PHP_URL, headers=headers, timeout=10)
+        resp.encoding = 'utf-8'
+        if resp.status_code == 200:
+            php_content = resp.text
+            found = re.findall(r'url\.cdnhs\.store:(\d+)', php_content)
+            for p in set(found):
+                if check_port_alive(int(p)): 
+                    valid_ports.append(p)
+    except:
+        print("PHP 接口不可用。")
 
-    # --- 第二部分：处理 hkTV 接口 (优先提取私密和快源) ---
-    hk_content = get_content(HK_SOURCE, is_hktv=True)
-    if hk_content:
-        for line in hk_content.split('\n'):
+    # 2. 如果 PHP 无效或没提供端口，启动 4w-5w 扫描备份
+    if not valid_ports:
+        valid_ports = scan_for_ports()
+
+    if not valid_ports:
+        print("未发现有效端口，跳过更新。")
+        return
+
+    main_port = valid_ports[0]
+    print(f"当前探测到的最新有效端口: {main_port}")
+
+    # 3. 处理 PHP 返回的数据并强制规范化分组
+    new_lines = []
+    has_private_in_php = False
+    
+    if php_content:
+        for line in php_content.split('\n'):
             line = line.strip()
-            if "," in line and "http" in line:
-                name = line.split(",")[0].strip()
-                if any(b in name for b in BLOCK_KEYWORDS): continue
-                if name in recorded_ext: continue
-                
-                if any(s in name for s in SECRET_KEYWORDS):
-                    ext_secret_lines.append(line)
+            if not line: continue
+            
+            # 格式转换：从“分类名称：”转为标准“名称#genre#”
+            if "分类名称：" in line:
+                genre = line.replace("分类名称：", "").strip()
+                if "私密" in genre: 
+                    has_private_in_php = True
+                    # 强制为私密分组加上密码 1818
+                    new_lines.append(f"\n{genre}_1818#genre#")
                 else:
-                    ext_normal_lines.append(line)
-                recorded_ext.add(name)
+                    new_lines.append(f"\n{genre}#genre#")
+            
+            elif "," in line and "http" in line:
+                # 同步修正 PHP 内容里的端口
+                line = re.sub(r'url\.cdnhs\.store:\d+', f"{TARGET_HOST}:{main_port}", line)
+                new_lines.append(line)
 
-    # --- 第三部分：处理其他接口 (今日影视排在最前) ---
-    for url in EXTRA_SOURCES:
-        ext_content = get_content(url)
-        for line in ext_content.split('\n'):
-            line = line.strip()
-            if "," in line and "http" in line:
-                name = line.split(",")[0].strip()
-                # 过滤杂质，但如果名字里带“邵氏”或“天映”则放行
-                if any(b in name for b in BLOCK_KEYWORDS):
-                    if not any(w in name for w in ["邵氏", "天映", "Celestial"]):
-                        continue
-                
-                if name in recorded_ext: continue
-                
-                if any(s in name for s in SECRET_KEYWORDS):
-                    ext_secret_lines.append(line)
-                    recorded_ext.add(name)
-                elif any(w in name for w in WANT_LIST):
-                    ext_normal_lines.append(line)
-                    recorded_ext.add(name)
+    # 4. 自动补全：若 PHP 无私密分组，则从 my20262.6.txt 补全
+    if not has_private_in_php:
+        print("检测到私密分组缺失，正在从本地仓库补全...")
+        private_data = get_private_content(valid_ports)
+        if private_data:
+            # 确保分组名带有标准格式和密码
+            if "#genre#" not in private_data:
+                new_lines.append("\n私密频道_1818#genre#")
+            new_lines.append(private_data.strip())
 
-    # --- 第四部分：组装 ---
-    if ext_normal_lines:
-        final_lines.append("✨ 外部海外补位(天映/邵氏/hkTV),#genre#")
-        final_lines.extend(ext_normal_lines)
-    
-    if ext_secret_lines:
-        final_lines.append("私密频道,#genre#")
-        final_lines.extend(ext_secret_lines)
-
-    with open(OUT_FILE, "w", encoding="utf-8") as f:
-        f.write("\n".join(final_lines))
-    print(f"✅ 完成！天映、邵氏、hk港台及私密源已全部就位，垃圾频道已剔除。")
+    # 5. 生成标准 TXT 文件
+    with open("total_live.txt", "w", encoding="utf-8") as f:
+        f.write("\n".join(new_lines).strip())
+    print(f"更新成功！total_live.txt 已同步最新端口: {main_port}")
 
 if __name__ == "__main__":
-    main()
+    update_live()
