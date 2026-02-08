@@ -1,8 +1,3 @@
-----------------------------
-🐧交流群：797966284
-💬公众号：DIYP
-----------------------------
-
 香港HK,#genre#
 翡翠台,http://url.cdnhs.store:47767/mytv.php?id=1#http://url.cdnhs.store:47767/hstw.php?id=MytvTvbJade#http://url.cdnhs.store:47767/hstw.php?id=TVBjadeHK#http://url.cdnhs.store:47767/hstw.php?id=jadehk#http://url.cdnhs.store:47767/hstw.php?id=TVBJHK#http://url.cdnhs.store:47767/hstw.php?id=MytvTvbJade#http://url.cdnhs.store:47767/hstw.php?id=TVBjadeHK#http://url.cdnhs.store:47767/hstw.php?id=jadehk#http://url.cdnhs.store:47767/hstw.php?id=TVBJHK#http://url.cdnhs.store:47767/hstw.php?id=MytvTvbJade#http://url.cdnhs.store:47767/hstw.php?id=TVBjadeHK#http://url.cdnhs.store:47767/hstw.php?id=jadehk#http://url.cdnhs.store:47767/hstw.php?id=TVBJHK#http://url.cdnhs.store:47767/hstw.php?id=MytvTvbJade#http://url.cdnhs.store:47767/hstw.php?id=TVBjadeHK#http://url.cdnhs.store:47767/hstw.php?id=jadehk#http://url.cdnhs.store:47767/hstw.php?id=TVBJHK
 明珠台,http://url.cdnhs.store:47767/mytv.php?id=2#http://url.cdnhs.store:47767/hstw.php?id=MytvTvbPearl#http://url.cdnhs.store:47767/hstw.php?id=tvbpearl#http://url.cdnhs.store:47767/hstw.php?id=TVBPearlHK#http://url.cdnhs.store:47767/hstw.php?id=pearlhk#http://url.cdnhs.store:47767/hstw.php?id=TVBP#http://url.cdnhs.store:47767/hstw.php?id=MytvTvbPearl#http://url.cdnhs.store:47767/hstw.php?id=tvbpearl#http://url.cdnhs.store:47767/hstw.php?id=TVBPearlHK#http://url.cdnhs.store:47767/hstw.php?id=pearlhk#http://url.cdnhs.store:47767/hstw.php?id=TVBP#http://url.cdnhs.store:47767/hstw.php?id=MytvTvbPearl#http://url.cdnhs.store:47767/hstw.php?id=tvbpearl#http://url.cdnhs.store:47767/hstw.php?id=TVBPearlHK#http://url.cdnhs.store:47767/hstw.php?id=pearlhk#http://url.cdnhs.store:47767/hstw.php?id=TVBP#http://url.cdnhs.store:47767/hstw.php?id=MytvTvbPearl#http://url.cdnhs.store:47767/hstw.php?id=tvbpearl#http://url.cdnhs.store:47767/hstw.php?id=TVBPearlHK#http://url.cdnhs.store:47767/hstw.php?id=pearlhk#http://url.cdnhs.store:47767/hstw.php?id=TVBP
@@ -928,7 +923,7 @@ TRACE Urban,http://url.cdnhs.store:47767/hstw.php?id=traceurbansg
 Sun Music,http://url.cdnhs.store:47767/hstw.php?id=SunMusicFHD#http://url.cdnhs.store:47767/hstw.php?id=SunMusicHD
 MTV Live,http://url.cdnhs.store:47767/hstw.php?id=MTVLiveFHD#http://url.cdnhs.store:47767/hstw.php?id=MTVLiveHD#http://url.cdnhs.store:47767/hstw.php?id=MTVHD
 
-私密频道#1818,#genre#
+私密频道_1818,#genre#
 松視1,http://url.cdnhs.store:40700/hstw.php?id=sonsee1#https://z88.ubtvfans.comm/live/rx3/402/363561d75eea338ad686444eaceeb58e/index.m3u8
 松視2,http://url.cdnhs.store:40700/hstw.php?id=sonsee2#https://z88.ubtvfans.comm/live/rx3/403/cbd6289b64ffdb8cc08b16b3cac4c235/index.m3u8
 松視3,http://url.cdnhs.store:40700/hstw.php?id=SonSee3hd#https://z88.ubtvfans.com/live/rx3/404/582ac886499e8123e3dd5aae9f1b85be/index.m3u8#http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/90.ts#http://z88.ubtvfans.com/live/rx2/404/d4cddf5dd02c52c1eced8dd7f0b2ccb0/index.m3u8#http://z3.ubtvfans.com/live/rx3/404/57ed7bfbbca3bc4f719e9d9519a4f409/index.m3u8#http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/90.ts#http://z88.ubtvfans.com/live/rx2/404/d4cddf5dd02c52c1eced8dd7f0b2ccb0/index.m3u8#http://z3.ubtvfans.com/live/rx3/404/57ed7bfbbca3bc4f719e9d9519a4f409/index.m3u8
@@ -1033,7 +1028,7 @@ Banana香蕉台HD(梯子),http://z88.ubtvfans.com/live/rx3/2930/f1b639cdb783636b
 松视1,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/88.ts#http://lc.aacalive.com:26789/i/ghjnvq5o/8c85giea/index.m3u8#http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/88.ts#http://lc.aacalive.com:26789/i/ghjnvq5o/8c85giea/index.m3u8
 松视2,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/89.ts#http://lc.aacalive.com:26789/i/ghjnvq5o/8c85fsaf/index.m3u8#http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/89.ts#http://lc.aacalive.com:26789/i/ghjnvq5o/8c85fsaf/index.m3u8
 
-福利频道#1818,#genre#
+福利频道_1818,#genre#
 极限电影台(梯子),http://z88.ubtvfans.com/live/rx3/2909/1f9debc5947d5756fec2908a357427e3/index.m3u8#http://z88.ubtvfans.com/live/rx3/2909/1f9debc5947d5756fec2908a357427e3/index.m3u8#http://lc.aacalive.com:26789/i/ghjnvq5o/8c855fdf/index.m3u8#https://z88.ubtvfans.com/live/rx3/2909/b559f5319cf679f02c321cdd4dd9d88c/index.m3u8#http://lc.aacalive.com:26789/i/ghjnvq5o/8c855fdf/index.m3u8
 极限电影台,http://live-broadcast-sh-service.vcinema.cn/live/5b7875a92594e6736380531cfe6871e5.flv
 彩虹E(梯子),http://z88.ubtvfans.com/live/rx4/2935/b2216e8fc2323f8a0a275e7c62df8732/index.m3u8#http://lc.aacalive.com:26789/i/ghjnvq5o/8c855daa/index.m3u8#http://z88.ubtvfans.com/live/rx4/2935/b2216e8fc2323f8a0a275e7c62df8732/index.m3u8#http://lc.aacalive.com:26789/i/ghjnvq5o/8c855daa/index.m3u8
@@ -1120,7 +1115,7 @@ XXX : Bangbro Network (18),http://epicboss.live:80/bjune@teksavvy.com/5193594414
 XXX : BangBro 4k,http://epicboss.live:80/bjune@teksavvy.com/5193594414/54230
 XXX : Blacked,http://epicboss.live:80/bjune@teksavvy.com/5193594414/56369
 
-午夜频道#1818,#genre#
+午夜频道_1818,#genre#
 爱豆传媒..小叶.性感美女床上激情成功拿下好色老板,https://t30.cdn2020.com/video/m3u8/2025/02/18/f624d2be/index.m3u8
 爱豆传媒..美心.公公在丰韵儿媳身上卖力抽插,https://t30.cdn2020.com/video/m3u8/2025/02/18/668d248c/index.m3u8
 麻豆传媒映画.妹妹同学借我五千块买手机还不起钱拿身体偿还,https://t30.cdn2020.com/video/m3u8/2025/02/16/cb2c0ea4/index.m3u8
