@@ -1,4 +1,4 @@
-Name: 30分钟自动更新直播源
+name: 30分钟自动更新直播源
 
 on:
   schedule:
