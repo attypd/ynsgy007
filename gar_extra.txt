@@ -2775,4 +2775,4 @@ GOOD福音台2,http://live-350k.streamingfast.net/hls-live/goodtv/_definst_/live
 GOOD2,https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch2-2.m3u8
 
 
-# Region-Sync: 2026-02-21 16:54:51 | Port: 42699
+# Region-Sync: 2026-02-21 17:24:14 | Port: 42699
