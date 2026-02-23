@@ -25,25 +25,19 @@ jobs:
       - name: 安装 requests 库
         run: pip install requests
 
-      - name: 执行主对时脚本 (生成 total_live.txt)
-        # 脚本将执行：三段式扫描 -> 替换主服务器端口 -> 提取私密分组
+      - name: 执行 update_all.py 脚本
+        # 脚本将执行：抓取PHP -> 缺失分组时读取 my20262.6.txt -> 应急扫描 4W-5W 端口
         run: python update_all.py
-
-      - name: 执行外部精选脚本 (生成 gar_extra.txt)
-        # 脚本将执行：抓取外部接口 -> 智能地区分组 -> 合并私密置底
-        run: python sync_external.py
 
       - name: 提交并推送更改
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          # 使用 git add . 确保所有新生成的文件（包括 gar_extra.txt）都被包含
-          git add .
-          
+          git add total_live.txt
           # 只有在内容真的发生变化时才提交，避免产生过多无用日志
           if git diff --staged --quiet; then
             echo "源文件未发生变化，无需更新。"
           else
-            git commit -m "自动更新：$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S') 同步最新端口及精选分组"
+            git commit -m "自动更新：已同步最新端口并校验私密分组"
             git push
           fi
