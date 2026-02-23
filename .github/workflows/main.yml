@@ -2,42 +2,40 @@ name: 30分钟自动更新直播源
 
 on:
   schedule:
-    # 每30分钟自动运行一次 (标准 Cron 表达式)
-    - cron: '*/30 * * * *'
-  workflow_dispatch: # 允许你随时手动点击按钮运行
+    - cron: '*/30 * * * *' # 每30分钟自动运行
+  workflow_dispatch:      # 允许手动运行
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    # 设置写权限，确保脚本能把更新后的内容推送到仓库
+    timeout-minutes: 10   # 防止扫描卡死
     permissions:
-      contents: write
+      contents: write     # 必须有写入权限
 
     steps:
-      - name: 检出代码
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: 设置 Python 3.10
+      - name: Setup Python 3.10
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
-      - name: 安装 requests 库
+      - name: Install requests
         run: pip install requests
 
-      - name: 执行 update_all.py 脚本
-        # 脚本将执行：抓取PHP -> 缺失分组时读取 my20262.6.txt -> 应急扫描 4W-5W 端口
+      - name: Run update_all.py
+        # 优先级分段扫描 -> PHP失效救援 -> 镜像私密备用组
         run: python update_all.py
 
-      - name: 提交并推送更改
+      - name: Commit and Push
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add total_live.txt
-          # 只有在内容真的发生变化时才提交，避免产生过多无用日志
           if git diff --staged --quiet; then
-            echo "源文件未发生变化，无需更新。"
+            echo "No changes detected."
           else
-            git commit -m "自动更新：已同步最新端口并校验私密分组"
+            git commit -m "自动更新: 已同步最新端口并校验私密分组"
             git push
           fi
