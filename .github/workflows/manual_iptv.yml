@@ -1,0 +1,23 @@
+name: 手动提取精简直播源
+on: 
+  workflow_dispatch: # 核心：手动触发，不干扰其他自动化
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v3
+
+      - name: 执行转换
+        run: |
+          pip install requests
+          python clean_iptv.py
+
+      - name: 提交结果
+        run: |
+          git config --local user.email "bot@github.com"
+          git config --local user.name "IPTV-Bot"
+          git add my_clean_list.m3u
+          git commit -m "手动更新完成" || exit 0
+          git push
