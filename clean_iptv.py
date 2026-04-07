@@ -1,20 +1,19 @@
 import requests
 
-# 1. 原始接口地址（随主服务器动态同步）
+# 原始接口地址
 URL = "http://iptvpro.pw:35451/get.php?username=3582251457&password=4975354955&type=m3u_plus&output=ts"
 
-# 2. 定义绝对不要的“点播库”关键词
-# 只要分组名里带了这些词，就是那种几万个文件的点播，直接踢掉
-# 剩下的直播分组（不管是叫 4K、香港、中文，还是新出的直播组）全部原封不动保留
-VOD_KEYWORDS = [
-    "NETFLIX", "奥斯卡", "Disney", "Netflix", "电影", "连续剧", "剧情", 
-    "惊悚", "战争", "动画", "喜剧", "动作", "科幻", "奇幻", "罪案", "历史", 
-    "爱情", "轮播", "精选", "Adults", "Adult", "三级片", "JP-Uncensored"
+# 绝对不要的点播分组关键词（只要分组名包含这些，通通删掉）
+# 加上了你刚截图的 "TVB 剧集" 和 "家庭片"
+DISCARD_KEYWORDS = [
+    "TVB 剧集", "家庭片", "纪录真人秀", # 针对你最新截图的分组
+    "NETFLIX", "Disney", "Netflix", "奥斯卡", 
+    "电影", "连续剧", "成人", "Adult", "三级", "福利"
 ]
 
 def clean_task():
     try:
-        print("正在从主服务器同步所有直播分组（已智能剔除点播库）...")
+        print("正在微调：精准剔除 TVB 剧集与家庭片等点播分组...")
         res = requests.get(URL, timeout=60)
         res.encoding = 'utf-8'
         lines = res.text.replace('\r\n', '\n').replace('\r', '\n').split('\n')
@@ -26,15 +25,18 @@ def clean_task():
         while i < len(lines):
             line = lines[i].strip()
             if line.startswith("#EXTINF"):
-                # 检查这一行是否属于点播分组
-                is_vod = any(kw.lower() in line.lower() for kw in VOD_KEYWORDS)
+                # 检查分组名是否包含黑名单关键词
+                # 只要包含 "TVB 剧集" 或 "家庭片"，就把 is_vod 设为 True
+                is_vod = any(kw.lower() in line.lower() for kw in DISCARD_KEYWORDS)
                 
-                # 核心逻辑：如果是直播电影台（比如属于“亚洲服务器”的分组），它们通常不带上面那些垃圾词
-                # 只要不是点播，就原样搬运
-                if not is_vod:
+                # 额外逻辑：自动识别带 S01E01 这种剧集编号的行（双重保险）
+                is_series = "s0" in line.lower() and "e0" in line.lower()
+
+                # 只有既不是黑名单，也不带剧集编号的，才保留
+                if not is_vod and not is_series:
                     new_m3u.append(lines[i])      # 原始信息
                     if i + 1 < len(lines):
-                        new_m3u.append(lines[i+1]) # 原始播放链接
+                        new_m3u.append(lines[i+1]) # 原始 URL
                     keep_count += 1
                 i += 2 
             else:
@@ -43,11 +45,12 @@ def clean_task():
         with open("my_clean_list.m3u", "w", encoding="utf-8") as f:
             f.write('\n'.join(new_m3u))
             
-        print(f"同步完成！已原样保留了 {keep_count} 个直播频道。")
-        print("所有直播分组（包括 4K、中文、体育及新增直播类）已按原始结构同步。")
+        print(f"微调同步完成！")
+        print(f"已成功屏蔽“TVB 剧集”和“家庭片”等冗余点播。")
+        print(f"当前保留直播频道总数: {keep_count}")
         
     except Exception as e:
-        print(f"同步失败: {e}")
+        print(f"运行失败: {e}")
 
 if __name__ == "__main__":
     clean_task()
