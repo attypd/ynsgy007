@@ -1,22 +1,21 @@
 import requests
 import re
 
-# 1. 原始接口地址（完全随你的接口变动，不写死分组）
+# 1. 原始接口地址
 URL = "http://iptvpro.pw:35451/get.php?username=3582251457&password=4975354955&type=m3u_plus&output=ts"
 
-# 2. 必须完整保留的分组（参考你之前发的截图，这些分组里的内容不经过格式过滤，全部保留）
-# 包括成人、4K、中文、电影直播等
-FAVORITE_GROUPS = [
-    "Adults", "三级片", "JP-Uncensored", "惊艳", "4K", 
-    "香港 HK", "台湾 TW", "中文(亚洲服务器)", "极限电影"
+# 2. 【点播分组名单】：完全对应你截图里要删掉的每一个点播组名字
+# 只要不是这名单里的，哪怕是新加的分组也会自动保留
+DELETE_GROUPS = [
+    "轮播LB", "自媒体精选", "喜剧片", "惊悚片", "动作片", "动画片", 
+    "战争片", "爱情片", "奇幻片", "科幻片", "罪案片", "家庭片", 
+    "历史片", "电影(剧情)", "连续剧(剧情)", "TVB 剧集", "纪录真人秀", 
+    "NETFLIX", "Disney Plus", "奥斯卡 Oscar"
 ]
-
-# 3. 点播文件的后缀黑名单
-VOD_EXTENSIONS = [".mp4", ".mkv", ".avi", ".rmvb", ".wmv", ".mov"]
 
 def clean_task():
     try:
-        print("开始智能扫描：正在通过后缀名识别点播并剔除...")
+        print("正在按截图列表剔除点播分组，保留所有直播及传媒频道...")
         res = requests.get(URL, timeout=60)
         res.encoding = 'utf-8'
         lines = res.text.replace('\r\n', '\n').replace('\r', '\n').split('\n')
@@ -28,31 +27,27 @@ def clean_task():
         while i < len(lines):
             line = lines[i].strip()
             if line.startswith("#EXTINF"):
-                # 提取分组名和下一行的 URL
+                # 提取分组名
                 group_match = re.search(r'group-title="([^"]+)"', line)
                 current_group = group_match.group(1) if group_match else ""
                 
+                # --- 严格匹配逻辑 ---
+                # 只有当分组名【完全等于】名单里的名字时，才删除
+                if current_group in DELETE_GROUPS:
+                    i += 2 # 直接跳过这组的 INF 和 URL
+                    continue
+                
+                # 此外，根据你的要求，后缀是 .mp4 的点播也顺带过滤掉，双重保险
                 if i + 1 < len(lines):
                     url_line = lines[i+1].strip().lower()
-                    
-                    # --- 核心判定逻辑 ---
-                    is_keep = False
-                    
-                    # 逻辑 A：如果你喜欢的成人或核心分组，直接保留
-                    if any(fav in current_group for fav in FAVORITE_GROUPS):
-                        is_keep = True
-                    
-                    # 逻辑 B：检查链接后缀，如果是 .mp4 等点播格式，直接踢掉
-                    # 只有不是点播格式的（即 .ts, .m3u8 或无后缀直播流），才保留
-                    elif not any(url_line.endswith(ext) for ext in VOD_EXTENSIONS):
-                        # 额外检查：排除掉带“第X集”或“S01E01”特征的标题
-                        if not re.search(r'第\d+集|S\d+E\d+', line):
-                            is_keep = True
+                    if url_line.endswith(".mp4"):
+                        i += 2
+                        continue
 
-                    if is_keep:
-                        new_m3u.append(lines[i])
-                        new_m3u.append(lines[i+1])
-                        keep_count += 1
+                # 剩下的全部保留（包括传媒组、所有直播组、未来新增组）
+                new_m3u.append(lines[i])
+                new_m3u.append(lines[i+1])
+                keep_count += 1
                 i += 2 
             else:
                 i += 1
@@ -60,11 +55,12 @@ def clean_task():
         with open("my_clean_list.m3u", "w", encoding="utf-8") as f:
             f.write('\n'.join(new_m3u))
             
-        print(f"肃清完成！已保留 {keep_count} 个纯直播频道。")
-        print(f"你的成人分组、电影直播等已完整同步。")
+        print(f"肃清完成！")
+        print(f"已严格剔除截图中的点播组。")
+        print(f"当前保留直播源总数: {keep_count}")
         
     except Exception as e:
-        print(f"同步失败: {e}")
+        print(f"运行失败: {e}")
 
 if __name__ == "__main__":
     clean_task()
