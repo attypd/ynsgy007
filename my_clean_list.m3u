@@ -125,30 +125,14 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/874.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/871.ts
 #EXTINF:-1 tvg-id="BBCワールドニュース.jp" tvg-name="BBCワールドニュース (JP)" tvg-logo="https://ts2.tc.mm.bing.net/th/id/OIP-C.kIKHUjPoGg62O4rf31UbvwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" group-title="日本JP",BBCワールドニュース (JP)
 http://iptvpro.pw:35451//live/3582251457/4975354955/873.ts
-#EXTINF:-1 tvg-id="" tvg-name="MLB Strike Zone 5" tvg-logo="" group-title="Sports",MLB Strike Zone 5
-http://iptvpro.pw:35451//live/3582251457/4975354955/251583.ts
-#EXTINF:-1 tvg-id="" tvg-name="MLB Strike Zone 2" tvg-logo="" group-title="Sports",MLB Strike Zone 2
-http://iptvpro.pw:35451//live/3582251457/4975354955/251574.ts
-#EXTINF:-1 tvg-id="" tvg-name="MLB Strike Zone 3" tvg-logo="" group-title="Sports",MLB Strike Zone 3
-http://iptvpro.pw:35451//live/3582251457/4975354955/251577.ts
-#EXTINF:-1 tvg-id="" tvg-name="MLB Strike Zone 4" tvg-logo="" group-title="Sports",MLB Strike Zone 4
-http://iptvpro.pw:35451//live/3582251457/4975354955/251580.ts
-#EXTINF:-1 tvg-id="" tvg-name="MLB Strike Zone 1" tvg-logo="" group-title="Sports",MLB Strike Zone 1
-http://iptvpro.pw:35451//live/3582251457/4975354955/251571.ts
-#EXTINF:-1 tvg-id="368322" tvg-name="Fight Sports CH642 (HK)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOSV67AYOcYXlLMRhMHPCY4KGEHF5rKEl5uA&s" group-title="香港HK",Fight Sports CH642 (HK)
-http://iptvpro.pw:35451//live/3582251457/4975354955/108.ts
-#EXTINF:-1 tvg-id="Now668.hk" tvg-name="Now 668 (粵) CH668 (HK)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvp-qceQWgkrifhXA3b3zmpMYl7_qmqOOdSQ0dnX755-oLPER8ozcCct9bPYs8Q7c4QLY&usqp=CAU" group-title="香港HK",Now 668 (粵) CH668 (HK)
-http://iptvpro.pw:35451//live/3582251457/4975354955/112.ts
-#EXTINF:-1 tvg-id="Now668.hk" tvg-name="Now 668 (國) CH668 (HK)" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch668_425_305" group-title="香港HK",Now 668 (國) CH668 (HK)
-http://iptvpro.pw:35451//live/3582251457/4975354955/113.ts
-#EXTINF:-1 tvg-id="" tvg-name="TVB 88 跑馬台 (HK)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS28skWeWEzLI1yFn5oL-qY1tKT-4kt01UF2A&s" group-title="香港HK",TVB 88 跑馬台 (HK)
-http://iptvpro.pw:35451//live/3582251457/4975354955/136.ts
-#EXTINF:-1 tvg-id="368322" tvg-name="HKC 有線18台 (HK)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ4MROOMSxLI5zvkyMsUAg791c6I5XLhW_Rg&s" group-title="香港HK",HKC 有線18台 (HK)
-http://iptvpro.pw:35451//live/3582251457/4975354955/122.ts
-#EXTINF:-1 tvg-id="368322" tvg-name="HKC 有線18台(低延時) (HK)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ4MROOMSxLI5zvkyMsUAg791c6I5XLhW_Rg&s" group-title="香港HK",HKC 有線18台(低延時) (HK)
-http://iptvpro.pw:35451//live/3582251457/4975354955/123.ts
-#EXTINF:-1 tvg-id="368334" tvg-name="TVB myTV SUPER 18台 CH018 (HK)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3cdS2JtxuCUT1SwUqYrR7LqKXCZjYzWhQTw&s" group-title="香港HK",TVB myTV SUPER 18台 CH018 (HK)
-http://iptvpro.pw:35451//live/3582251457/4975354955/51.ts
+#EXTINF:-1 tvg-id="494985" tvg-name="CCTV-5 (CN)" tvg-logo="http://crm.iptvpro.pw/iptv/logo/cn/CCTV5.png" group-title="大陆CN",CCTV-5 (CN)
+http://iptvpro.pw:35451//live/3582251457/4975354955/479.ts
+#EXTINF:-1 tvg-id="494985" tvg-name="CCTV-5 1080P (CN)" tvg-logo="http://crm.iptvpro.pw/iptv/logo/cn/CCTV5.png" group-title="大陆CN",CCTV-5 1080P (CN)
+http://iptvpro.pw:35451//live/3582251457/4975354955/537.ts
+#EXTINF:-1 tvg-id="494985" tvg-name="CCTV-5P 1080P (CN)" tvg-logo="http://crm.iptvpro.pw/iptv/logo/cn/CCTV5+.jpg" group-title="大陆CN",CCTV-5P 1080P (CN)
+http://iptvpro.pw:35451//live/3582251457/4975354955/538.ts
+#EXTINF:-1 tvg-id="494985" tvg-name="CCTV-5P (CN)" tvg-logo="http://crm.iptvpro.pw/iptv/logo/cn/CCTV5+.jpg" group-title="大陆CN",CCTV-5P (CN)
+http://iptvpro.pw:35451//live/3582251457/4975354955/492.ts
 #EXTINF:-1 tvg-id="370159" tvg-name="ELTA 爱尔达体育1台 (TW) 540P(TW)" tvg-logo="http://crm.iptvpro.pw/iptv/logo/tw/ELTA-Sports.jpg" group-title="台湾TW",ELTA 爱尔达体育1台 (TW) 540P(TW)
 http://iptvpro.pw:35451//live/3582251457/4975354955/257.ts
 #EXTINF:-1 tvg-id="460775" tvg-name="ELTA 爱尔达体育2台 (TW) 540P(TW)" tvg-logo="http://crm.iptvpro.pw/iptv/logo/tw/ELTA-Sports.jpg" group-title="台湾TW",ELTA 爱尔达体育2台 (TW) 540P(TW)
@@ -191,10 +175,20 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/336.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/335.ts
 #EXTINF:-1 tvg-id="370208" tvg-name="智林体育台 (TW)" tvg-logo="https://oursport.tv/images/tsl_logo.png" group-title="台湾TW",智林体育台 (TW)
 http://iptvpro.pw:35451//live/3582251457/4975354955/337.ts
-#EXTINF:-1 tvg-id="494985" tvg-name="CCTV-5 1080P (CN)" tvg-logo="http://crm.iptvpro.pw/iptv/logo/cn/CCTV5.png" group-title="大陆CN",CCTV-5 1080P (CN)
-http://iptvpro.pw:35451//live/3582251457/4975354955/537.ts
-#EXTINF:-1 tvg-id="494985" tvg-name="CCTV-5P 1080P (CN)" tvg-logo="http://crm.iptvpro.pw/iptv/logo/cn/CCTV5+.jpg" group-title="大陆CN",CCTV-5P 1080P (CN)
-http://iptvpro.pw:35451//live/3582251457/4975354955/538.ts
+#EXTINF:-1 tvg-id="368322" tvg-name="Fight Sports CH642 (HK)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOSV67AYOcYXlLMRhMHPCY4KGEHF5rKEl5uA&s" group-title="香港HK",Fight Sports CH642 (HK)
+http://iptvpro.pw:35451//live/3582251457/4975354955/108.ts
+#EXTINF:-1 tvg-id="Now668.hk" tvg-name="Now 668 (粵) CH668 (HK)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvp-qceQWgkrifhXA3b3zmpMYl7_qmqOOdSQ0dnX755-oLPER8ozcCct9bPYs8Q7c4QLY&usqp=CAU" group-title="香港HK",Now 668 (粵) CH668 (HK)
+http://iptvpro.pw:35451//live/3582251457/4975354955/112.ts
+#EXTINF:-1 tvg-id="Now668.hk" tvg-name="Now 668 (國) CH668 (HK)" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch668_425_305" group-title="香港HK",Now 668 (國) CH668 (HK)
+http://iptvpro.pw:35451//live/3582251457/4975354955/113.ts
+#EXTINF:-1 tvg-id="" tvg-name="TVB 88 跑馬台 (HK)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS28skWeWEzLI1yFn5oL-qY1tKT-4kt01UF2A&s" group-title="香港HK",TVB 88 跑馬台 (HK)
+http://iptvpro.pw:35451//live/3582251457/4975354955/136.ts
+#EXTINF:-1 tvg-id="368322" tvg-name="HKC 有線18台 (HK)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ4MROOMSxLI5zvkyMsUAg791c6I5XLhW_Rg&s" group-title="香港HK",HKC 有線18台 (HK)
+http://iptvpro.pw:35451//live/3582251457/4975354955/122.ts
+#EXTINF:-1 tvg-id="368322" tvg-name="HKC 有線18台(低延時) (HK)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ4MROOMSxLI5zvkyMsUAg791c6I5XLhW_Rg&s" group-title="香港HK",HKC 有線18台(低延時) (HK)
+http://iptvpro.pw:35451//live/3582251457/4975354955/123.ts
+#EXTINF:-1 tvg-id="368334" tvg-name="TVB myTV SUPER 18台 CH018 (HK)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3cdS2JtxuCUT1SwUqYrR7LqKXCZjYzWhQTw&s" group-title="香港HK",TVB myTV SUPER 18台 CH018 (HK)
+http://iptvpro.pw:35451//live/3582251457/4975354955/51.ts
 #EXTINF:-1 tvg-id="457737" tvg-name="五星体育 (CN)" tvg-logo="http://crm.iptvpro.pw/iptv/logo/cn/wuxing.png" group-title="大陆CN",五星体育 (CN)
 http://iptvpro.pw:35451//live/3582251457/4975354955/526.ts
 #EXTINF:-1 tvg-id="458223" tvg-name="广东体育频道 (CN)" tvg-logo="http://crm.iptvpro.pw/iptv/logo/cn/guangdongtiyu.jpg" group-title="大陆CN",广东体育频道 (CN)
@@ -211,10 +205,6 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/255.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/256.ts
 #EXTINF:-1 tvg-id="456575" tvg-name="纬来体育台 H265 (TW)" tvg-logo="http://crm.iptvpro.pw/iptv/logo/tw/wlty.jpg" group-title="台湾TW",纬来体育台 H265 (TW)
 http://iptvpro.pw:35451//live/3582251457/4975354955/424.ts
-#EXTINF:-1 tvg-id="494985" tvg-name="CCTV-5 (CN)" tvg-logo="http://crm.iptvpro.pw/iptv/logo/cn/CCTV5.png" group-title="大陆CN",CCTV-5 (CN)
-http://iptvpro.pw:35451//live/3582251457/4975354955/479.ts
-#EXTINF:-1 tvg-id="494985" tvg-name="CCTV-5P (CN)" tvg-logo="http://crm.iptvpro.pw/iptv/logo/cn/CCTV5+.jpg" group-title="大陆CN",CCTV-5P (CN)
-http://iptvpro.pw:35451//live/3582251457/4975354955/492.ts
 #EXTINF:-1 tvg-id="412169" tvg-name="Hub Sports 1 (SG)" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/uan17t1655810451.png" group-title="新加坡SG",Hub Sports 1 (SG)
 http://iptvpro.pw:35451//live/3582251457/4975354955/633.ts
 #EXTINF:-1 tvg-id="412154" tvg-name="Hub Sports 2 (SG)" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/m85hz61655810471.png" group-title="新加坡SG",Hub Sports 2 (SG)
@@ -577,8 +567,36 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/1556.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/1512.ts
 #EXTINF:-1 tvg-id="Euronews.uk" tvg-name="UK Euro Sport 2" tvg-logo="http://crm.iptvpro.pw/iptv/logo/uk/eurosport-2-uk.png" group-title="UK",UK Euro Sport 2
 http://iptvpro.pw:35451//live/3582251457/4975354955/1511.ts
+#EXTINF:-1 tvg-id="" tvg-name="MLB Strike Zone 1" tvg-logo="" group-title="Sports",MLB Strike Zone 1
+http://iptvpro.pw:35451//live/3582251457/4975354955/251571.ts
+#EXTINF:-1 tvg-id="" tvg-name="MLB Strike Zone 2" tvg-logo="" group-title="Sports",MLB Strike Zone 2
+http://iptvpro.pw:35451//live/3582251457/4975354955/251574.ts
+#EXTINF:-1 tvg-id="" tvg-name="MLB Strike Zone 3" tvg-logo="" group-title="Sports",MLB Strike Zone 3
+http://iptvpro.pw:35451//live/3582251457/4975354955/251577.ts
+#EXTINF:-1 tvg-id="" tvg-name="MLB Strike Zone 4" tvg-logo="" group-title="Sports",MLB Strike Zone 4
+http://iptvpro.pw:35451//live/3582251457/4975354955/251580.ts
+#EXTINF:-1 tvg-id="" tvg-name="MLB Strike Zone 5" tvg-logo="" group-title="Sports",MLB Strike Zone 5
+http://iptvpro.pw:35451//live/3582251457/4975354955/251583.ts
 #EXTINF:-1 tvg-id="" tvg-name="MLB Strike Zone 6" tvg-logo="" group-title="Sports",MLB Strike Zone 6
 http://iptvpro.pw:35451//live/3582251457/4975354955/251587.ts
+#EXTINF:-1 tvg-id="" tvg-name="MLB Strike Zone 7" tvg-logo="" group-title="Sports",MLB Strike Zone 7
+http://iptvpro.pw:35451//live/3582251457/4975354955/251588.ts
+#EXTINF:-1 tvg-id="" tvg-name="MLB Strike Zone 8" tvg-logo="" group-title="Sports",MLB Strike Zone 8
+http://iptvpro.pw:35451//live/3582251457/4975354955/251589.ts
+#EXTINF:-1 tvg-id="" tvg-name="MLB Strike Zone 9" tvg-logo="" group-title="Sports",MLB Strike Zone 9
+http://iptvpro.pw:35451//live/3582251457/4975354955/251590.ts
+#EXTINF:-1 tvg-id="" tvg-name="MLB Strike Zone 10" tvg-logo="" group-title="Sports",MLB Strike Zone 10
+http://iptvpro.pw:35451//live/3582251457/4975354955/251591.ts
+#EXTINF:-1 tvg-id="" tvg-name="MLB Strike Zone 11" tvg-logo="" group-title="Sports",MLB Strike Zone 11
+http://iptvpro.pw:35451//live/3582251457/4975354955/251592.ts
+#EXTINF:-1 tvg-id="" tvg-name="MLB Strike Zone 12" tvg-logo="" group-title="Sports",MLB Strike Zone 12
+http://iptvpro.pw:35451//live/3582251457/4975354955/251593.ts
+#EXTINF:-1 tvg-id="" tvg-name="MLB Strike Zone 13" tvg-logo="" group-title="Sports",MLB Strike Zone 13
+http://iptvpro.pw:35451//live/3582251457/4975354955/251594.ts
+#EXTINF:-1 tvg-id="" tvg-name="MLB Strike Zone 14" tvg-logo="" group-title="Sports",MLB Strike Zone 14
+http://iptvpro.pw:35451//live/3582251457/4975354955/251595.ts
+#EXTINF:-1 tvg-id="" tvg-name="MLB Strike Zone 15" tvg-logo="" group-title="Sports",MLB Strike Zone 15
+http://iptvpro.pw:35451//live/3582251457/4975354955/251596.ts
 #EXTINF:-1 tvg-id="Jade.hk" tvg-name="TVB 翡翠台 JADE H265 (HK)" tvg-logo="https://static.wikia.nocookie.net/kidvskat/images/0/02/TVB_Jade.jpg" group-title="香港HK",TVB 翡翠台 JADE H265 (HK)
 http://iptvpro.pw:35451//live/3582251457/4975354955/2.ts
 #EXTINF:-1 tvg-id="TVB.Plus.hk" tvg-name="TVB Plus H265 (HK)" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/9f/TVBPlus.jpg" group-title="香港HK",TVB Plus H265 (HK)
@@ -4487,26 +4505,8 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/26638.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/26639.ts
 #EXTINF:-1 tvg-id="" tvg-name="Wired Pussy" tvg-logo="" group-title="Adults",Wired Pussy
 http://iptvpro.pw:35451//live/3582251457/4975354955/26640.ts
-#EXTINF:-1 tvg-id="" tvg-name="八块腹肌(男同)" tvg-logo="" group-title="Asia Adults LB",八块腹肌(男同)
-http://iptvpro.pw:35451//live/3582251457/4975354955/254260.ts
-#EXTINF:-1 tvg-id="" tvg-name="舒淇三级写真" tvg-logo="" group-title="Asia Adults LB",舒淇三级写真
-http://iptvpro.pw:35451//live/3582251457/4975354955/253411.ts
-#EXTINF:-1 tvg-id="" tvg-name="舒淇早年珍品写真流出" tvg-logo="" group-title="Asia Adults LB",舒淇早年珍品写真流出
-http://iptvpro.pw:35451//live/3582251457/4975354955/253413.ts
-#EXTINF:-1 tvg-id="" tvg-name="舒淇四点全露阁楼写真" tvg-logo="" group-title="Asia Adults LB",舒淇四点全露阁楼写真
-http://iptvpro.pw:35451//live/3582251457/4975354955/253414.ts
-#EXTINF:-1 tvg-id="" tvg-name="陈冠希艳照门--其他人" tvg-logo="" group-title="Asia Adults LB",陈冠希艳照门--其他人
-http://iptvpro.pw:35451//live/3582251457/4975354955/253415.ts
-#EXTINF:-1 tvg-id="" tvg-name="陈冠希艳照门--陈文媛篇" tvg-logo="" group-title="Asia Adults LB",陈冠希艳照门--陈文媛篇
-http://iptvpro.pw:35451//live/3582251457/4975354955/253416.ts
-#EXTINF:-1 tvg-id="" tvg-name="陈冠希艳照门--钟欣潼篇" tvg-logo="" group-title="Asia Adults LB",陈冠希艳照门--钟欣潼篇
-http://iptvpro.pw:35451//live/3582251457/4975354955/253417.ts
-#EXTINF:-1 tvg-id="" tvg-name="陈冠希艳照门--张柏芝篇" tvg-logo="" group-title="Asia Adults LB",陈冠希艳照门--张柏芝篇
-http://iptvpro.pw:35451//live/3582251457/4975354955/253418.ts
 #EXTINF:-1 tvg-id="" tvg-name="糖心传媒" tvg-logo="" group-title="Asia Adults LB",糖心传媒
 http://iptvpro.pw:35451//live/3582251457/4975354955/251145.ts
-#EXTINF:-1 tvg-id="" tvg-name="韩国Haja10无码" tvg-logo="" group-title="Asia Adults LB",韩国Haja10无码
-http://iptvpro.pw:35451//live/3582251457/4975354955/247837.ts
 #EXTINF:-1 tvg-id="" tvg-name="新日本无码-2" tvg-logo="" group-title="Asia Adults LB",新日本无码-2
 http://iptvpro.pw:35451//live/3582251457/4975354955/250450.ts
 #EXTINF:-1 tvg-id="" tvg-name="日本无码精选-1" tvg-logo="" group-title="Asia Adults LB",日本无码精选-1
@@ -4519,8 +4519,6 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/250437.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/251148.ts
 #EXTINF:-1 tvg-id="" tvg-name="旅日普通话女优美美" tvg-logo="" group-title="Asia Adults LB",旅日普通话女优美美
 http://iptvpro.pw:35451//live/3582251457/4975354955/251169.ts
-#EXTINF:-1 tvg-id="" tvg-name="CN 七老板(7 Boss)探花精选" tvg-logo="" group-title="Asia Adults LB",CN 七老板(7 Boss)探花精选
-http://iptvpro.pw:35451//live/3582251457/4975354955/247836.ts
 #EXTINF:-1 tvg-id="" tvg-name="港台4级(打真军)" tvg-logo="" group-title="Asia Adults LB",港台4级(打真军)
 http://iptvpro.pw:35451//live/3582251457/4975354955/247835.ts
 #EXTINF:-1 tvg-id="" tvg-name="香港黄业" tvg-logo="" group-title="Asia Adults LB",香港黄业
@@ -4533,8 +4531,6 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/251157.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/251154.ts
 #EXTINF:-1 tvg-id="" tvg-name="千禧金瓶梅" tvg-logo="" group-title="Asia Adults LB",千禧金瓶梅
 http://iptvpro.pw:35451//live/3582251457/4975354955/251151.ts
-#EXTINF:-1 tvg-id="" tvg-name="CN 猴子探花" tvg-logo="" group-title="Asia Adults LB",CN 猴子探花
-http://iptvpro.pw:35451//live/3582251457/4975354955/26633.ts
 #EXTINF:-1 tvg-id="" tvg-name="邵氏艳情精选" tvg-logo="" group-title="Asia Adults LB",邵氏艳情精选
 http://iptvpro.pw:35451//live/3582251457/4975354955/26642.ts
 #EXTINF:-1 tvg-id="" tvg-name="香港三级精选" tvg-logo="" group-title="Asia Adults LB",香港三级精选
@@ -4557,6 +4553,8 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/1031.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/1032.ts
 #EXTINF:-1 tvg-id="" tvg-name="JP J-Girl" tvg-logo="" group-title="Asia Adults LB",JP J-Girl
 http://iptvpro.pw:35451//live/3582251457/4975354955/1038.ts
+#EXTINF:-1 tvg-id="" tvg-name="FC2无码精选-2" tvg-logo="" group-title="Asia Adults LB",FC2无码精选-2
+http://iptvpro.pw:35451//live/3582251457/4975354955/254417.ts
 #EXTINF:-1 tvg-id="" tvg-name="JP 苍井空 Sola Aoi" tvg-logo="" group-title="Asia Adults LB",JP 苍井空 Sola Aoi
 http://iptvpro.pw:35451//live/3582251457/4975354955/1043.ts
 #EXTINF:-1 tvg-id="" tvg-name="JP 波多野结衣 Yui Hatano" tvg-logo="" group-title="Asia Adults LB",JP 波多野结衣 Yui Hatano
@@ -4573,24 +4571,16 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/1070.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/2602.ts
 #EXTINF:-1 tvg-id="" tvg-name="台灣片商PsychopornTW" tvg-logo="" group-title="Asia Adults LB",台灣片商PsychopornTW
 http://iptvpro.pw:35451//live/3582251457/4975354955/1056.ts
-#EXTINF:-1 tvg-id="" tvg-name="CN 杏吧欧阳克探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧欧阳克探花
-http://iptvpro.pw:35451//live/3582251457/4975354955/2593.ts
 #EXTINF:-1 tvg-id="" tvg-name="JP VR 1" tvg-logo="" group-title="Asia Adults LB",JP VR 1
 http://iptvpro.pw:35451//live/3582251457/4975354955/1047.ts
-#EXTINF:-1 tvg-id="" tvg-name="CN 杏吧鸠摩智探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧鸠摩智探花
-http://iptvpro.pw:35451//live/3582251457/4975354955/2598.ts
 #EXTINF:-1 tvg-id="" tvg-name="JP 天堂素人約啪" tvg-logo="" group-title="Asia Adults LB",JP 天堂素人約啪
 http://iptvpro.pw:35451//live/3582251457/4975354955/1049.ts
-#EXTINF:-1 tvg-id="" tvg-name="CN 杏吧鱼知欢探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧鱼知欢探花
-http://iptvpro.pw:35451//live/3582251457/4975354955/2607.ts
 #EXTINF:-1 tvg-id="" tvg-name="大陆真实迷奸" tvg-logo="" group-title="Asia Adults LB",大陆真实迷奸
 http://iptvpro.pw:35451//live/3582251457/4975354955/1059.ts
 #EXTINF:-1 tvg-id="" tvg-name="CN 一杆钢枪探花" tvg-logo="" group-title="Asia Adults LB",CN 一杆钢枪探花
 http://iptvpro.pw:35451//live/3582251457/4975354955/2608.ts
 #EXTINF:-1 tvg-id="" tvg-name="CN 天美传媒" tvg-logo="" group-title="Asia Adults LB",CN 天美传媒
 http://iptvpro.pw:35451//live/3582251457/4975354955/1054.ts
-#EXTINF:-1 tvg-id="" tvg-name="CN 杏吧鱼知欢鱼总探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧鱼知欢鱼总探花
-http://iptvpro.pw:35451//live/3582251457/4975354955/2592.ts
 #EXTINF:-1 tvg-id="" tvg-name="大神利哥探花" tvg-logo="" group-title="Asia Adults LB",大神利哥探花
 http://iptvpro.pw:35451//live/3582251457/4975354955/1053.ts
 #EXTINF:-1 tvg-id="" tvg-name="CN 杏吧老王探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧老王探花
@@ -4599,48 +4589,76 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/2591.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/1060.ts
 #EXTINF:-1 tvg-id="" tvg-name="午夜探花" tvg-logo="" group-title="Asia Adults LB",午夜探花
 http://iptvpro.pw:35451//live/3582251457/4975354955/1063.ts
-#EXTINF:-1 tvg-id="" tvg-name="CN 杏吧王安全探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧王安全探花
-http://iptvpro.pw:35451//live/3582251457/4975354955/2590.ts
-#EXTINF:-1 tvg-id="" tvg-name="CN 杏吧洪七探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧洪七探花
-http://iptvpro.pw:35451//live/3582251457/4975354955/2597.ts
 #EXTINF:-1 tvg-id="" tvg-name="七天极品探花" tvg-logo="" group-title="Asia Adults LB",七天极品探花
 http://iptvpro.pw:35451//live/3582251457/4975354955/1062.ts
-#EXTINF:-1 tvg-id="" tvg-name="CN 杏吧西门庆探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧西门庆探花
-http://iptvpro.pw:35451//live/3582251457/4975354955/2596.ts
 #EXTINF:-1 tvg-id="" tvg-name="小宝探花" tvg-logo="" group-title="Asia Adults LB",小宝探花
 http://iptvpro.pw:35451//live/3582251457/4975354955/1064.ts
-#EXTINF:-1 tvg-id="" tvg-name="CN 杏吧李寻欢探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧李寻欢探花
-http://iptvpro.pw:35451//live/3582251457/4975354955/2601.ts
 #EXTINF:-1 tvg-id="" tvg-name="JP 日本FC2-PPV 1" tvg-logo="" group-title="Asia Adults LB",JP 日本FC2-PPV 1
 http://iptvpro.pw:35451//live/3582251457/4975354955/1040.ts
 #EXTINF:-1 tvg-id="" tvg-name="日本强奸迷奸" tvg-logo="" group-title="Asia Adults LB",日本强奸迷奸
 http://iptvpro.pw:35451//live/3582251457/4975354955/1057.ts
-#EXTINF:-1 tvg-id="" tvg-name="CN 杏吧李寻欢探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧李寻欢探花
-http://iptvpro.pw:35451//live/3582251457/4975354955/2600.ts
-#EXTINF:-1 tvg-id="" tvg-name="CN 杏吧建材王哥探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧建材王哥探花
-http://iptvpro.pw:35451//live/3582251457/4975354955/2594.ts
-#EXTINF:-1 tvg-id="" tvg-name="日本情色动漫 1" tvg-logo="" group-title="Asia Adults LB",日本情色动漫 1
-http://iptvpro.pw:35451//live/3582251457/4975354955/1075.ts
-#EXTINF:-1 tvg-id="" tvg-name="CN 杏吧尹志平探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧尹志平探花
-http://iptvpro.pw:35451//live/3582251457/4975354955/2599.ts
+#EXTINF:-1 tvg-id="" tvg-name="韩国Haja10无码" tvg-logo="" group-title="Asia Adults LB",韩国Haja10无码
+http://iptvpro.pw:35451//live/3582251457/4975354955/247837.ts
 #EXTINF:-1 tvg-id="" tvg-name="JP 日本素人无码 10Musume" tvg-logo="" group-title="Asia Adults LB",JP 日本素人无码 10Musume
 http://iptvpro.pw:35451//live/3582251457/4975354955/1039.ts
-#EXTINF:-1 tvg-id="" tvg-name="CN 杏吧小飞探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧小飞探花
-http://iptvpro.pw:35451//live/3582251457/4975354955/2606.ts
+#EXTINF:-1 tvg-id="" tvg-name="日本情色动漫 1" tvg-logo="" group-title="Asia Adults LB",日本情色动漫 1
+http://iptvpro.pw:35451//live/3582251457/4975354955/1075.ts
 #EXTINF:-1 tvg-id="" tvg-name="猫先生MR.Cat" tvg-logo="" group-title="Asia Adults LB",猫先生MR.Cat
 http://iptvpro.pw:35451//live/3582251457/4975354955/1051.ts
-#EXTINF:-1 tvg-id="" tvg-name="CN 杏吧大熊探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧大熊探花
-http://iptvpro.pw:35451//live/3582251457/4975354955/2595.ts
 #EXTINF:-1 tvg-id="" tvg-name="金三角猎艳" tvg-logo="" group-title="Asia Adults LB",金三角猎艳
 http://iptvpro.pw:35451//live/3582251457/4975354955/1065.ts
+#EXTINF:-1 tvg-id="" tvg-name="CN 猴子探花" tvg-logo="" group-title="Asia Adults LB",CN 猴子探花
+http://iptvpro.pw:35451//live/3582251457/4975354955/26633.ts
+#EXTINF:-1 tvg-id="" tvg-name="CN 七老板(7 Boss)探花精选" tvg-logo="" group-title="Asia Adults LB",CN 七老板(7 Boss)探花精选
+http://iptvpro.pw:35451//live/3582251457/4975354955/247836.ts
+#EXTINF:-1 tvg-id="" tvg-name="CN 杏吧王安全探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧王安全探花
+http://iptvpro.pw:35451//live/3582251457/4975354955/2590.ts
+#EXTINF:-1 tvg-id="" tvg-name="CN 杏吧洪七探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧洪七探花
+http://iptvpro.pw:35451//live/3582251457/4975354955/2597.ts
+#EXTINF:-1 tvg-id="" tvg-name="CN 杏吧欧阳克探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧欧阳克探花
+http://iptvpro.pw:35451//live/3582251457/4975354955/2593.ts
+#EXTINF:-1 tvg-id="" tvg-name="CN 杏吧鸠摩智探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧鸠摩智探花
+http://iptvpro.pw:35451//live/3582251457/4975354955/2598.ts
+#EXTINF:-1 tvg-id="" tvg-name="CN 杏吧鱼知欢探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧鱼知欢探花
+http://iptvpro.pw:35451//live/3582251457/4975354955/2607.ts
+#EXTINF:-1 tvg-id="" tvg-name="CN 杏吧鱼知欢鱼总探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧鱼知欢鱼总探花
+http://iptvpro.pw:35451//live/3582251457/4975354955/2592.ts
+#EXTINF:-1 tvg-id="" tvg-name="CN 杏吧大熊探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧大熊探花
+http://iptvpro.pw:35451//live/3582251457/4975354955/2595.ts
+#EXTINF:-1 tvg-id="" tvg-name="CN 杏吧李寻欢探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧李寻欢探花
+http://iptvpro.pw:35451//live/3582251457/4975354955/2600.ts
+#EXTINF:-1 tvg-id="" tvg-name="CN 杏吧西门庆探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧西门庆探花
+http://iptvpro.pw:35451//live/3582251457/4975354955/2596.ts
+#EXTINF:-1 tvg-id="" tvg-name="CN 杏吧李寻欢探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧李寻欢探花
+http://iptvpro.pw:35451//live/3582251457/4975354955/2601.ts
+#EXTINF:-1 tvg-id="" tvg-name="CN 杏吧建材王哥探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧建材王哥探花
+http://iptvpro.pw:35451//live/3582251457/4975354955/2594.ts
+#EXTINF:-1 tvg-id="" tvg-name="CN 杏吧尹志平探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧尹志平探花
+http://iptvpro.pw:35451//live/3582251457/4975354955/2599.ts
+#EXTINF:-1 tvg-id="" tvg-name="CN 杏吧小飞探花" tvg-logo="" group-title="Asia Adults LB",CN 杏吧小飞探花
+http://iptvpro.pw:35451//live/3582251457/4975354955/2606.ts
+#EXTINF:-1 tvg-id="" tvg-name="CN 我的枪好长探花-1" tvg-logo="" group-title="Asia Adults LB",CN 我的枪好长探花-1
+http://iptvpro.pw:35451//live/3582251457/4975354955/2604.ts
 #EXTINF:-1 tvg-id="" tvg-name="CN 我的枪好长探花-2" tvg-logo="" group-title="Asia Adults LB",CN 我的枪好长探花-2
 http://iptvpro.pw:35451//live/3582251457/4975354955/2605.ts
 #EXTINF:-1 tvg-id="" tvg-name="韩国演艺圈潜规则 Scanda Korea" tvg-logo="" group-title="Asia Adults LB",韩国演艺圈潜规则 Scanda Korea
 http://iptvpro.pw:35451//live/3582251457/4975354955/1052.ts
-#EXTINF:-1 tvg-id="" tvg-name="CN 我的枪好长探花-1" tvg-logo="" group-title="Asia Adults LB",CN 我的枪好长探花-1
-http://iptvpro.pw:35451//live/3582251457/4975354955/2604.ts
 #EXTINF:-1 tvg-id="" tvg-name="男爵全国探花" tvg-logo="" group-title="Asia Adults LB",男爵全国探花
 http://iptvpro.pw:35451//live/3582251457/4975354955/1058.ts
+#EXTINF:-1 tvg-id="" tvg-name="舒淇三级写真" tvg-logo="" group-title="Asia Adults LB",舒淇三级写真
+http://iptvpro.pw:35451//live/3582251457/4975354955/253411.ts
+#EXTINF:-1 tvg-id="" tvg-name="舒淇早年珍品写真流出" tvg-logo="" group-title="Asia Adults LB",舒淇早年珍品写真流出
+http://iptvpro.pw:35451//live/3582251457/4975354955/253413.ts
+#EXTINF:-1 tvg-id="" tvg-name="舒淇四点全露阁楼写真" tvg-logo="" group-title="Asia Adults LB",舒淇四点全露阁楼写真
+http://iptvpro.pw:35451//live/3582251457/4975354955/253414.ts
+#EXTINF:-1 tvg-id="" tvg-name="陈冠希艳照门--其他人" tvg-logo="" group-title="Asia Adults LB",陈冠希艳照门--其他人
+http://iptvpro.pw:35451//live/3582251457/4975354955/253415.ts
+#EXTINF:-1 tvg-id="" tvg-name="陈冠希艳照门--陈文媛篇" tvg-logo="" group-title="Asia Adults LB",陈冠希艳照门--陈文媛篇
+http://iptvpro.pw:35451//live/3582251457/4975354955/253416.ts
+#EXTINF:-1 tvg-id="" tvg-name="陈冠希艳照门--钟欣潼篇" tvg-logo="" group-title="Asia Adults LB",陈冠希艳照门--钟欣潼篇
+http://iptvpro.pw:35451//live/3582251457/4975354955/253417.ts
+#EXTINF:-1 tvg-id="" tvg-name="陈冠希艳照门--张柏芝篇" tvg-logo="" group-title="Asia Adults LB",陈冠希艳照门--张柏芝篇
+http://iptvpro.pw:35451//live/3582251457/4975354955/253418.ts
 #EXTINF:-1 tvg-id="" tvg-name="91短视频-果冻传媒" tvg-logo="" group-title="Asia Adults LB",91短视频-果冻传媒
 http://iptvpro.pw:35451//live/3582251457/4975354955/1055.ts
 #EXTINF:-1 tvg-id="" tvg-name="CN 我不是AV男优探花" tvg-logo="" group-title="Asia Adults LB",CN 我不是AV男优探花
@@ -4667,6 +4685,8 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/2484.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/2529.ts
 #EXTINF:-1 tvg-id="" tvg-name="精东影业" tvg-logo="" group-title="Asia Adults LB",精东影业
 http://iptvpro.pw:35451//live/3582251457/4975354955/2481.ts
+#EXTINF:-1 tvg-id="" tvg-name="八块腹肌(男同)" tvg-logo="" group-title="Asia Adults LB",八块腹肌(男同)
+http://iptvpro.pw:35451//live/3582251457/4975354955/254260.ts
 #EXTINF:-1 tvg-id="" tvg-name="想要的一天.A Day to Do It (2016)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3OyqUryslM080WN9pFuovrxgiGl.jpg" group-title="三级片",想要的一天.A Day to Do It (2016)
 http://iptvpro.pw:35451/movie/3582251457/4975354955/54757.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Sister-in-law's Seduction (2017)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xGA1LHCdxwjQwqRavFXlveS0Hvg.jpg" group-title="三级片",Sister-in-law's Seduction (2017)
