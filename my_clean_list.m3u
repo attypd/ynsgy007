@@ -773,8 +773,6 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/133.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/134.ts
 #EXTINF:-1 tvg-id="431446" tvg-name="SUPER 話當年 CH10 (HK)" tvg-logo="http://crm.iptvpro.pw/iptv/logo/hk/tvbsuper.jpg" group-title="香港HK",SUPER 話當年 CH10 (HK)
 http://iptvpro.pw:35451//live/3582251457/4975354955/135.ts
-#EXTINF:-1 tvg-id="368322" tvg-name="星空衛視 (HK)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrJnJbQQhbYH6esa83-NYCQ93Qpbl4mL5bYg&s" group-title="香港HK",星空衛視 (HK)
-http://iptvpro.pw:35451//live/3582251457/4975354955/145.ts
 #EXTINF:-1 tvg-id="368322" tvg-name="香港C＋頻道 (HK)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAv4j14vWQcdwdfXIjYSa03qSw5ItavGdmPA&s" group-title="香港HK",香港C＋頻道 (HK)
 http://iptvpro.pw:35451//live/3582251457/4975354955/147.ts
 #EXTINF:-1 tvg-id="368322" tvg-name="澳視澳門台 (HK)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN2RifbyIRc5x4UBYB3OJaUsGO2RVUxShB1A&s" group-title="香港HK",澳視澳門台 (HK)
@@ -1399,8 +1397,6 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/532.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/531.ts
 #EXTINF:-1 tvg-id="378960" tvg-name="CHC 高清电影 (CN)" tvg-logo="http://crm.iptvpro.pw/iptv/logo/cn/CHCMOV.png" group-title="大陆CN",CHC 高清电影 (CN)
 http://iptvpro.pw:35451//live/3582251457/4975354955/530.ts
-#EXTINF:-1 tvg-id="449215" tvg-name="上海哈哈炫动卡通 (CN)" tvg-logo="http://crm.iptvpro.pw/iptv/logo/cn/hahaxuandong.jpg" group-title="大陆CN",上海哈哈炫动卡通 (CN)
-http://iptvpro.pw:35451//live/3582251457/4975354955/591.ts
 #EXTINF:-1 tvg-id="471099" tvg-name="广东嘉佳卡通 (CN)" tvg-logo="http://crm.iptvpro.pw/iptv/logo/cn/guangdongjiaka.png" group-title="大陆CN",广东嘉佳卡通 (CN)
 http://iptvpro.pw:35451//live/3582251457/4975354955/589.ts
 #EXTINF:-1 tvg-id="457585" tvg-name="广东大湾区卫视 (CN)" tvg-logo="http://crm.iptvpro.pw/iptv/logo/cn/nanfang.jpg" group-title="大陆CN",广东大湾区卫视 (CN)
@@ -1671,8 +1667,6 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/744.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/745.ts
 #EXTINF:-1 tvg-id="NTV7.my" tvg-name="Didik TV (MY)" tvg-logo="https://www.kosmo.com.my/wp-content/uploads/2021/02/WhatsApp-Image-2021-02-17-at-1.31.30-PM-e1613546257421.jpeg" group-title="马来MY",Didik TV (MY)
 http://iptvpro.pw:35451//live/3582251457/4975354955/729.ts
-#EXTINF:-1 tvg-id="SUN.TV.HD.my" tvg-name="DramaSangat (MY)" tvg-logo="https://ts1.tc.mm.bing.net/th/id/OIP-C.WVhzLz-SweW_A-B0Ryz05wAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" group-title="马来MY",DramaSangat (MY)
-http://iptvpro.pw:35451//live/3582251457/4975354955/724.ts
 #EXTINF:-1 tvg-id="Astro.Premier.League.5.my" tvg-name="Enjoy TV5 (MY)" tvg-logo="https://ts1.tc.mm.bing.net/th/id/OIP-C.-fG--1SgTJ3Qw4gIIJLx8gAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" group-title="马来MY",Enjoy TV5 (MY)
 http://iptvpro.pw:35451//live/3582251457/4975354955/782.ts
 #EXTINF:-1 tvg-id="Global.Trekker.my" tvg-name="Global Trekker (MY)" tvg-logo="https://epg.pw/media/images/epg/2024/06/12/20240612110626388144_49.png" group-title="马来MY",Global Trekker (MY)
@@ -1687,14 +1681,8 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/775.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/772.ts
 #EXTINF:-1 tvg-id="LOL.my" tvg-name="RTM Asean (MY)" tvg-logo="https://ts3.tc.mm.bing.net/th/id/OIP-C.4hrmGkYXUoHamurZ5iTJpwAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" group-title="马来MY",RTM Asean (MY)
 http://iptvpro.pw:35451//live/3582251457/4975354955/742.ts
-#EXTINF:-1 tvg-id="LOL.my" tvg-name="RTM Berita (MY)" tvg-logo="https://ts3.tc.mm.bing.net/th/id/OIP-C.oZ62bL4iqpfy0octE_xhIwAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" group-title="马来MY",RTM Berita (MY)
-http://iptvpro.pw:35451//live/3582251457/4975354955/726.ts
 #EXTINF:-1 tvg-id="SUN.TV.HD.my" tvg-name="RTM Sukan (MY)" tvg-logo="https://tse4-mm.cn.bing.net/th/id/OIP-C.4oToZNde4IIOtEm1nMaiXgHaEH?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" group-title="马来MY",RTM Sukan (MY)
 http://iptvpro.pw:35451//live/3582251457/4975354955/725.ts
-#EXTINF:-1 tvg-id="LOL.my" tvg-name="Dewan Negara (MY)" tvg-logo="https://ts3.tc.mm.bing.net/th/id/OIP-C.aZgoNPOaneypHRTXsb0hCgHaEj?rs=1&pid=ImgDetMain&o=7&rm=3" group-title="马来MY",Dewan Negara (MY)
-http://iptvpro.pw:35451//live/3582251457/4975354955/728.ts
-#EXTINF:-1 tvg-id="LOL.my" tvg-name="Dewan Rakyat (MY)" tvg-logo="https://ts3.tc.mm.bing.net/th/id/OIP-C.8xa5YnuCcujuVS7hZzV3jAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" group-title="马来MY",Dewan Rakyat (MY)
-http://iptvpro.pw:35451//live/3582251457/4975354955/727.ts
 #EXTINF:-1 tvg-id="Astro.Tutor.TV.my" tvg-name="TutorTV(MY)" tvg-logo="https://ts4.tc.mm.bing.net/th/id/OIP-C.fPI2atxbc0vcEGnUkDbf3QHaDt?rs=1&pid=ImgDetMain&o=7&rm=3" group-title="马来MY",TutorTV(MY)
 http://iptvpro.pw:35451//live/3582251457/4975354955/743.ts
 #EXTINF:-1 tvg-id="Al-Hijrah.my" tvg-name="TV Alhijrah (MY)" tvg-logo="https://ts4.tc.mm.bing.net/th/id/OIP-C.gr5hUq4CyMoXHbFZO9SKdQHaEJ?rs=1&pid=ImgDetMain&o=7&rm=3" group-title="马来MY",TV Alhijrah (MY)
@@ -2629,8 +2617,6 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/1552.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/1539.ts
 #EXTINF:-1 tvg-id="TNT.Sports.10.HD.uk" tvg-name="EIR Sports" tvg-logo="https://ts2.tc.mm.bing.net/th/id/OIP-C.2l9JgLvxs3ZmsfSUMH17pwHaEK?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3" group-title="UK",EIR Sports
 http://iptvpro.pw:35451//live/3582251457/4975354955/1569.ts
-#EXTINF:-1 tvg-id="BBC.R.Cymru.2.uk" tvg-name="Free Sports" tvg-logo="http://crm.iptvpro.pw/iptv/logo/uk/free-sports-uk.png" group-title="UK",Free Sports
-http://iptvpro.pw:35451//live/3582251457/4975354955/1570.ts
 #EXTINF:-1 tvg-id="Trace.Vault.uk" tvg-name="TRACE Sport Stars" tvg-logo="https://epg.pw/media/images/epg/2024/06/12/20240612111234551088_67.png" group-title="UK",TRACE Sport Stars
 http://iptvpro.pw:35451//live/3582251457/4975354955/1572.ts
 #EXTINF:-1 tvg-id="Premier.Sports.1.HD.uk" tvg-name="UK Premier Sports 1" tvg-logo="http://crm.iptvpro.pw/iptv/logo/uk/premier-sports-1-uk.png" group-title="UK",UK Premier Sports 1
@@ -3127,8 +3113,6 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/1992.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/1993.ts
 #EXTINF:-1 tvg-id="M+.Liga.de.Campeones.2.es" tvg-name="ES M+ Liga de Campeones 2" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAP1.png" group-title="Spain",ES M+ Liga de Campeones 2
 http://iptvpro.pw:35451//live/3582251457/4975354955/1994.ts
-#EXTINF:-1 tvg-id="M+.Liga.de.Campeones..3.es" tvg-name="ES M+ Liga de Campeones 3" tvg-logo="https://www.tvguia.es/sites/default/files/logo/m-liga-de-campeones-3_3.png" group-title="Spain",ES M+ Liga de Campeones 3
-http://iptvpro.pw:35451//live/3582251457/4975354955/1995.ts
 #EXTINF:-1 tvg-id="M+.Vamos.es" tvg-name="ES M+ Vamos" tvg-logo="https://ts3.tc.mm.bing.net/th/id/OIP-C.m7lbpBw0FViU4MMoOcyuGAHaHa?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3" group-title="Spain",ES M+ Vamos
 http://iptvpro.pw:35451//live/3582251457/4975354955/1974.ts
 #EXTINF:-1 tvg-id="M+.Golf.es" tvg-name="ES M+ Golf" tvg-logo="http://crm.iptvpro.pw/iptv/logo/es/golf-por-movistar-plus-es.png" group-title="Spain",ES M+ Golf
@@ -3191,8 +3175,6 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/1964.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/1973.ts
 #EXTINF:-1 tvg-id="Nick.Junior.es" tvg-name="ES NICK JR" tvg-logo="http://crm.iptvpro.pw/iptv/logo/es/nick-jr-es.png" group-title="Spain",ES NICK JR
 http://iptvpro.pw:35451//live/3582251457/4975354955/2011.ts
-#EXTINF:-1 tvg-id="Disney.Junior.es" tvg-name="ES Disney Junior" tvg-logo="http://crm.iptvpro.pw/iptv/logo/es/disney-jr-es.png" group-title="Spain",ES Disney Junior
-http://iptvpro.pw:35451//live/3582251457/4975354955/1970.ts
 #EXTINF:-1 tvg-id="Disney.Channel.es" tvg-name="ES Disney Channel" tvg-logo="http://crm.iptvpro.pw/iptv/logo/es/disney-channel-es.png" group-title="Spain",ES Disney Channel
 http://iptvpro.pw:35451//live/3582251457/4975354955/1971.ts
 #EXTINF:-1 tvg-id="Baby.TV.es" tvg-name="ES Baby TV" tvg-logo="http://crm.iptvpro.pw/iptv/logo/es/baby-tv-es.png" group-title="Spain",ES Baby TV
@@ -3205,8 +3187,6 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/1975.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/1976.ts
 #EXTINF:-1 tvg-id="DMAX.es" tvg-name="ES DMAX" tvg-logo="http://crm.iptvpro.pw/iptv/logo/es/dmax-es.png" group-title="Spain",ES DMAX
 http://iptvpro.pw:35451//live/3582251457/4975354955/1960.ts
-#EXTINF:-1 tvg-id="3/24.es" tvg-name="ES 3/24" tvg-logo="http://crm.iptvpro.pw/iptv/logo/es/3-24-es.png" group-title="Spain",ES 3/24
-http://iptvpro.pw:35451//live/3582251457/4975354955/1982.ts
 #EXTINF:-1 tvg-id="Caza.y.Pesca.es" tvg-name="ES Caza y Pesca" tvg-logo="https://ts2.tc.mm.bing.net/th/id/OIP-C.RH1IbU6-er_TP9Wu7aMg4wHaD8?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3" group-title="Spain",ES Caza y Pesca
 http://iptvpro.pw:35451//live/3582251457/4975354955/1953.ts
 #EXTINF:-1 tvg-id="Cosmopolitan.es" tvg-name="ES COSMO" tvg-logo="http://crm.iptvpro.pw/iptv/logo/es/cosmo-es.png" group-title="Spain",ES COSMO
@@ -3461,8 +3441,6 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/1926.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/84021.ts
 #EXTINF:-1 tvg-id="Colors.Infinity.SD.in" tvg-name="IN COLORS INF HD" tvg-logo="http://crm.iptvpro.pw/iptv/logo/in/colors-infinity-hd-in.png" group-title="India",IN COLORS INF HD
 http://iptvpro.pw:35451//live/3582251457/4975354955/84023.ts
-#EXTINF:-1 tvg-id="And.Prive.HD.in" tvg-name="IN PRIVE HD" tvg-logo="https://cn.bing.com/rp/sjRKqL7qEBB3rUAoLZkYF0PHd6Y.svg" group-title="India",IN PRIVE HD
-http://iptvpro.pw:35451//live/3582251457/4975354955/84024.ts
 #EXTINF:-1 tvg-id="J.Movies.in" tvg-name="IN MOVIES HD" tvg-logo="http://crm.iptvpro.pw/iptv/logo/in/movies-now-in.png" group-title="India",IN MOVIES HD
 http://iptvpro.pw:35451//live/3582251457/4975354955/84025.ts
 #EXTINF:-1 tvg-id="Zee.Cafe.HD.in" tvg-name="IN ZEE CAFE HD" tvg-logo="http://crm.iptvpro.pw/iptv/logo/in/zee-cafe-hd-in.png" group-title="India",IN ZEE CAFE HD
