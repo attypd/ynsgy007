@@ -125,6 +125,10 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/874.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/871.ts
 #EXTINF:-1 tvg-id="BBCワールドニュース.jp" tvg-name="BBCワールドニュース (JP)" tvg-logo="https://ts2.tc.mm.bing.net/th/id/OIP-C.kIKHUjPoGg62O4rf31UbvwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" group-title="日本JP",BBCワールドニュース (JP)
 http://iptvpro.pw:35451//live/3582251457/4975354955/873.ts
+#EXTINF:-1 tvg-id="" tvg-name="Now Sports 618 FIFA 2026" tvg-logo="" group-title="FIFA 2026 Live",Now Sports 618 FIFA 2026
+http://iptvpro.pw:35451//live/3582251457/4975354955/255589.ts
+#EXTINF:-1 tvg-id="" tvg-name="Now Sports 619 FIFA 2026" tvg-logo="" group-title="FIFA 2026 Live",Now Sports 619 FIFA 2026
+http://iptvpro.pw:35451//live/3582251457/4975354955/255592.ts
 #EXTINF:-1 tvg-id="494985" tvg-name="CCTV-5 (CN)" tvg-logo="http://crm.iptvpro.pw/iptv/logo/cn/CCTV5.png" group-title="大陆CN",CCTV-5 (CN)
 http://iptvpro.pw:35451//live/3582251457/4975354955/479.ts
 #EXTINF:-1 tvg-id="494985" tvg-name="CCTV-5 1080P (CN)" tvg-logo="http://crm.iptvpro.pw/iptv/logo/cn/CCTV5.png" group-title="大陆CN",CCTV-5 1080P (CN)
@@ -579,6 +583,16 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/251580.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/251583.ts
 #EXTINF:-1 tvg-id="" tvg-name="MLB Strike Zone 6" tvg-logo="" group-title="Sports",MLB Strike Zone 6
 http://iptvpro.pw:35451//live/3582251457/4975354955/251587.ts
+#EXTINF:-1 tvg-id="368329" tvg-name="AU SBS" tvg-logo="" group-title="FIFA 2026 Live",AU SBS
+http://iptvpro.pw:35451//live/3582251457/4975354955/144.ts
+#EXTINF:-1 tvg-id="" tvg-name="ELTA体育1台" tvg-logo="" group-title="中文(亚洲服务器)",ELTA体育1台
+http://iptvpro.pw:35451//live/3582251457/4975354955/252846.ts
+#EXTINF:-1 tvg-id="" tvg-name="ELTA体育2台" tvg-logo="" group-title="中文(亚洲服务器)",ELTA体育2台
+http://iptvpro.pw:35451//live/3582251457/4975354955/252847.ts
+#EXTINF:-1 tvg-id="" tvg-name="ELTA体育3台" tvg-logo="" group-title="中文(亚洲服务器)",ELTA体育3台
+http://iptvpro.pw:35451//live/3582251457/4975354955/252848.ts
+#EXTINF:-1 tvg-id="" tvg-name="ELTA体育4台" tvg-logo="" group-title="中文(亚洲服务器)",ELTA体育4台
+http://iptvpro.pw:35451//live/3582251457/4975354955/252849.ts
 #EXTINF:-1 tvg-id="" tvg-name="MLB Strike Zone 7" tvg-logo="" group-title="Sports",MLB Strike Zone 7
 http://iptvpro.pw:35451//live/3582251457/4975354955/251588.ts
 #EXTINF:-1 tvg-id="" tvg-name="MLB Strike Zone 8" tvg-logo="" group-title="Sports",MLB Strike Zone 8
@@ -651,8 +665,6 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/35.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/36.ts
 #EXTINF:-1 tvg-id="HBO.hk" tvg-name="HBO CH115 (HK)" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch115_425_305" group-title="香港HK",HBO CH115 (HK)
 http://iptvpro.pw:35451//live/3582251457/4975354955/37.ts
-#EXTINF:-1 tvg-id="MOVIE.MOVIE.hk" tvg-name="MOVIE MOVIE CH116 (HK)" tvg-logo="https://epg.pw/media/images/epg/2025/01/28/20250128122422479929_62" group-title="香港HK",MOVIE MOVIE CH116 (HK)
-http://iptvpro.pw:35451//live/3582251457/4975354955/38.ts
 #EXTINF:-1 tvg-id="Now.Baogu.Superstars.hk" tvg-name="Now 爆穀星影台 CH138 (HK)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrLdvHOQN-1Axqtqt3IB9yu0ae_I60HnafQToyDU2d6JXPgw1Jq1cB4ci6FS--X7dhxK4&usqp=CAU" group-title="香港HK",Now 爆穀星影台 CH138 (HK)
 http://iptvpro.pw:35451//live/3582251457/4975354955/40.ts
 #EXTINF:-1 tvg-id="Now.Baogu.Movies.hk" tvg-name="Now 爆穀台 CH133 (HK)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmxKhhNR34xOZvah_aSR71ISEGjxoG2TIiWg&s" group-title="香港HK",Now 爆穀台 CH133 (HK)
@@ -1681,8 +1693,6 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/775.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/772.ts
 #EXTINF:-1 tvg-id="LOL.my" tvg-name="RTM Asean (MY)" tvg-logo="https://ts3.tc.mm.bing.net/th/id/OIP-C.4hrmGkYXUoHamurZ5iTJpwAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" group-title="马来MY",RTM Asean (MY)
 http://iptvpro.pw:35451//live/3582251457/4975354955/742.ts
-#EXTINF:-1 tvg-id="SUN.TV.HD.my" tvg-name="RTM Sukan (MY)" tvg-logo="https://tse4-mm.cn.bing.net/th/id/OIP-C.4oToZNde4IIOtEm1nMaiXgHaEH?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" group-title="马来MY",RTM Sukan (MY)
-http://iptvpro.pw:35451//live/3582251457/4975354955/725.ts
 #EXTINF:-1 tvg-id="Astro.Tutor.TV.my" tvg-name="TutorTV(MY)" tvg-logo="https://ts4.tc.mm.bing.net/th/id/OIP-C.fPI2atxbc0vcEGnUkDbf3QHaDt?rs=1&pid=ImgDetMain&o=7&rm=3" group-title="马来MY",TutorTV(MY)
 http://iptvpro.pw:35451//live/3582251457/4975354955/743.ts
 #EXTINF:-1 tvg-id="Al-Hijrah.my" tvg-name="TV Alhijrah (MY)" tvg-logo="https://ts4.tc.mm.bing.net/th/id/OIP-C.gr5hUq4CyMoXHbFZO9SKdQHaEJ?rs=1&pid=ImgDetMain&o=7&rm=3" group-title="马来MY",TV Alhijrah (MY)
@@ -4045,14 +4055,6 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/252802.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/252803.ts
 #EXTINF:-1 tvg-id="" tvg-name="中视经典" tvg-logo="" group-title="中文(亚洲服务器)",中视经典
 http://iptvpro.pw:35451//live/3582251457/4975354955/252804.ts
-#EXTINF:-1 tvg-id="" tvg-name="HBO HD" tvg-logo="" group-title="中文(亚洲服务器)",HBO HD
-http://iptvpro.pw:35451//live/3582251457/4975354955/252805.ts
-#EXTINF:-1 tvg-id="" tvg-name="HBO家庭" tvg-logo="" group-title="中文(亚洲服务器)",HBO家庭
-http://iptvpro.pw:35451//live/3582251457/4975354955/252806.ts
-#EXTINF:-1 tvg-id="" tvg-name="HBO强档" tvg-logo="" group-title="中文(亚洲服务器)",HBO强档
-http://iptvpro.pw:35451//live/3582251457/4975354955/252807.ts
-#EXTINF:-1 tvg-id="" tvg-name="HBO原创" tvg-logo="" group-title="中文(亚洲服务器)",HBO原创
-http://iptvpro.pw:35451//live/3582251457/4975354955/252808.ts
 #EXTINF:-1 tvg-id="" tvg-name="好莱坞电影" tvg-logo="" group-title="中文(亚洲服务器)",好莱坞电影
 http://iptvpro.pw:35451//live/3582251457/4975354955/252809.ts
 #EXTINF:-1 tvg-id="" tvg-name="东森洋片" tvg-logo="" group-title="中文(亚洲服务器)",东森洋片
@@ -4127,20 +4129,10 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/252843.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/252844.ts
 #EXTINF:-1 tvg-id="" tvg-name="靖洋戏剧" tvg-logo="" group-title="中文(亚洲服务器)",靖洋戏剧
 http://iptvpro.pw:35451//live/3582251457/4975354955/252845.ts
-#EXTINF:-1 tvg-id="" tvg-name="ELTA体育1台" tvg-logo="" group-title="中文(亚洲服务器)",ELTA体育1台
-http://iptvpro.pw:35451//live/3582251457/4975354955/252846.ts
-#EXTINF:-1 tvg-id="" tvg-name="ELTA体育2台" tvg-logo="" group-title="中文(亚洲服务器)",ELTA体育2台
-http://iptvpro.pw:35451//live/3582251457/4975354955/252847.ts
-#EXTINF:-1 tvg-id="" tvg-name="ELTA体育3台" tvg-logo="" group-title="中文(亚洲服务器)",ELTA体育3台
-http://iptvpro.pw:35451//live/3582251457/4975354955/252848.ts
-#EXTINF:-1 tvg-id="" tvg-name="ELTA体育4台" tvg-logo="" group-title="中文(亚洲服务器)",ELTA体育4台
-http://iptvpro.pw:35451//live/3582251457/4975354955/252849.ts
 #EXTINF:-1 tvg-id="" tvg-name="博斯运动1" tvg-logo="" group-title="中文(亚洲服务器)",博斯运动1
 http://iptvpro.pw:35451//live/3582251457/4975354955/252850.ts
 #EXTINF:-1 tvg-id="" tvg-name="博斯运动2" tvg-logo="" group-title="中文(亚洲服务器)",博斯运动2
 http://iptvpro.pw:35451//live/3582251457/4975354955/252851.ts
-#EXTINF:-1 tvg-id="" tvg-name="博斯高球1" tvg-logo="" group-title="中文(亚洲服务器)",博斯高球1
-http://iptvpro.pw:35451//live/3582251457/4975354955/252852.ts
 #EXTINF:-1 tvg-id="" tvg-name="博斯高球2" tvg-logo="" group-title="中文(亚洲服务器)",博斯高球2
 http://iptvpro.pw:35451//live/3582251457/4975354955/252853.ts
 #EXTINF:-1 tvg-id="" tvg-name="博斯无限" tvg-logo="" group-title="中文(亚洲服务器)",博斯无限
@@ -4195,8 +4187,6 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/252877.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/252878.ts
 #EXTINF:-1 tvg-id="" tvg-name="亚洲旅游" tvg-logo="" group-title="中文(亚洲服务器)",亚洲旅游
 http://iptvpro.pw:35451//live/3582251457/4975354955/252879.ts
-#EXTINF:-1 tvg-id="" tvg-name="Travel Channel" tvg-logo="" group-title="中文(亚洲服务器)",Travel Channel
-http://iptvpro.pw:35451//live/3582251457/4975354955/252880.ts
 #EXTINF:-1 tvg-id="" tvg-name="韩国娱乐台KMTV" tvg-logo="" group-title="中文(亚洲服务器)",韩国娱乐台KMTV
 http://iptvpro.pw:35451//live/3582251457/4975354955/252881.ts
 #EXTINF:-1 tvg-id="" tvg-name="年代Much" tvg-logo="" group-title="中文(亚洲服务器)",年代Much
