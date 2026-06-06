@@ -4261,8 +4261,6 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/252915.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/252916.ts
 #EXTINF:-1 tvg-id="" tvg-name="BBC Earth" tvg-logo="" group-title="中文(亚洲服务器)",BBC Earth
 http://iptvpro.pw:35451//live/3582251457/4975354955/252917.ts
-#EXTINF:-1 tvg-id="" tvg-name="突尼斯炮王gattouz0" tvg-logo="" group-title="Adults",突尼斯炮王gattouz0
-http://iptvpro.pw:35451//live/3582251457/4975354955/254259.ts
 #EXTINF:-1 tvg-id="" tvg-name="Vivid Red" tvg-logo="" group-title="Adults",Vivid Red
 http://iptvpro.pw:35451//live/3582251457/4975354955/997.ts
 #EXTINF:-1 tvg-id="DORCEL.TV.ca2" tvg-name="Dorcel" tvg-logo="http://crm.iptvpro.pw/iptv/logo/ca/dorcel-xxx-ca.png" group-title="Adults",Dorcel
@@ -4293,30 +4291,52 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/1005.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/1006.ts
 #EXTINF:-1 tvg-id="" tvg-name="VIXEN" tvg-logo="" group-title="Adults",VIXEN
 http://iptvpro.pw:35451//live/3582251457/4975354955/1009.ts
+#EXTINF:-1 tvg-id="" tvg-name="Dorcel TV Africa" tvg-logo="" group-title="Adults",Dorcel TV Africa
+http://iptvpro.pw:35451//live/3582251457/4975354955/255674.ts
+#EXTINF:-1 tvg-id="" tvg-name="Penthouse Black" tvg-logo="" group-title="Adults",Penthouse Black
+http://iptvpro.pw:35451//live/3582251457/4975354955/255675.ts
+#EXTINF:-1 tvg-id="" tvg-name="Pink" tvg-logo="" group-title="Adults",Pink
+http://iptvpro.pw:35451//live/3582251457/4975354955/255676.ts
+#EXTINF:-1 tvg-id="" tvg-name="Man-X" tvg-logo="" group-title="Adults",Man-X
+http://iptvpro.pw:35451//live/3582251457/4975354955/255677.ts
 #EXTINF:-1 tvg-id="" tvg-name="Erox" tvg-logo="" group-title="Adults",Erox
 http://iptvpro.pw:35451//live/3582251457/4975354955/1007.ts
 #EXTINF:-1 tvg-id="" tvg-name="Ero xxx" tvg-logo="" group-title="Adults",Ero xxx
 http://iptvpro.pw:35451//live/3582251457/4975354955/1025.ts
 #EXTINF:-1 tvg-id="456838" tvg-name="潘多拉完美台" tvg-logo="https://ts3.tc.mm.bing.net/th/id/OIP-C.mzqVe1n_O4WCnEifElTbfwAAAA?w=108&h=108&c=1&bgcl=ab8cc7&r=0&o=7&pid=ImgRC&rm=3" group-title="Adults",潘多拉完美台
 http://iptvpro.pw:35451//live/3582251457/4975354955/981.ts
+#EXTINF:-1 tvg-id="" tvg-name="潘朵拉粉红台" tvg-logo="" group-title="Adults",潘朵拉粉红台
+http://iptvpro.pw:35451//live/3582251457/4975354955/255672.ts
 #EXTINF:-1 tvg-id="456834" tvg-name="松视1台" tvg-logo="https://simg.doyo.cn/imgfile/bgame/202404/11161426arwy.png" group-title="Adults",松视1台
 http://iptvpro.pw:35451//live/3582251457/4975354955/984.ts
 #EXTINF:-1 tvg-id="456835" tvg-name="松视2台" tvg-logo="https://simg.doyo.cn/imgfile/bgame/202404/11161426arwy.png" group-title="Adults",松视2台
 http://iptvpro.pw:35451//live/3582251457/4975354955/985.ts
+#EXTINF:-1 tvg-id="" tvg-name="松视3台" tvg-logo="" group-title="Adults",松视3台
+http://iptvpro.pw:35451//live/3582251457/4975354955/255667.ts
 #EXTINF:-1 tvg-id="456831" tvg-name="彩虹E台" tvg-logo="https://epg.pw/media/images/epg/2025/09/17/20250917053547948191_56.jpg" group-title="Adults",彩虹E台
 http://iptvpro.pw:35451//live/3582251457/4975354955/978.ts
 #EXTINF:-1 tvg-id="" tvg-name="彩虹K台" tvg-logo="" group-title="Adults",彩虹K台
 http://iptvpro.pw:35451//live/3582251457/4975354955/988.ts
 #EXTINF:-1 tvg-id="456832" tvg-name="彩虹电影" tvg-logo="https://epg.pw/media/images/epg/2025/09/17/20250917053601595610_31.jpg" group-title="Adults",彩虹电影
 http://iptvpro.pw:35451//live/3582251457/4975354955/979.ts
+#EXTINF:-1 tvg-id="" tvg-name="彩虹R频道" tvg-logo="" group-title="Adults",彩虹R频道
+http://iptvpro.pw:35451//live/3582251457/4975354955/255673.ts
 #EXTINF:-1 tvg-id="370137" tvg-name="Amazing 惊艳成人电影台" tvg-logo="https://ts2.tc.mm.bing.net/th/id/OIP-C.qqIS6Ep-fzRXbC7WNzAyqwHaEt?w=108&h=108&c=1&bgcl=0a8d0a&r=0&o=7&pid=ImgRC&rm=3" group-title="Adults",Amazing 惊艳成人电影台
 http://iptvpro.pw:35451//live/3582251457/4975354955/982.ts
 #EXTINF:-1 tvg-id="" tvg-name="Banana 香蕉台" tvg-logo="" group-title="Adults",Banana 香蕉台
 http://iptvpro.pw:35451//live/3582251457/4975354955/983.ts
 #EXTINF:-1 tvg-id="456845" tvg-name="HAPPY频道" tvg-logo="https://pix1.tvzhe.com/images/logo/channel/HAPPY/HAPPY.jpg?1" group-title="Adults",HAPPY频道
 http://iptvpro.pw:35451//live/3582251457/4975354955/986.ts
+#EXTINF:-1 tvg-id="" tvg-name="LOHAS 乐活频道" tvg-logo="" group-title="Adults",LOHAS 乐活频道
+http://iptvpro.pw:35451//live/3582251457/4975354955/255669.ts
+#EXTINF:-1 tvg-id="" tvg-name="HiPLAY 频道" tvg-logo="" group-title="Adults",HiPLAY 频道
+http://iptvpro.pw:35451//live/3582251457/4975354955/255670.ts
+#EXTINF:-1 tvg-id="" tvg-name="HOT 频道" tvg-logo="" group-title="Adults",HOT 频道
+http://iptvpro.pw:35451//live/3582251457/4975354955/255671.ts
 #EXTINF:-1 tvg-id="" tvg-name="JStar 极限电影台" tvg-logo="" group-title="Adults",JStar 极限电影台
 http://iptvpro.pw:35451//live/3582251457/4975354955/987.ts
+#EXTINF:-1 tvg-id="" tvg-name="Mens Neco(JP)" tvg-logo="" group-title="Adults",Mens Neco(JP)
+http://iptvpro.pw:35451//live/3582251457/4975354955/255668.ts
 #EXTINF:-1 tvg-id="" tvg-name="LOOK" tvg-logo="" group-title="Adults",LOOK
 http://iptvpro.pw:35451//live/3582251457/4975354955/980.ts
 #EXTINF:-1 tvg-id="" tvg-name="奥视频道1 Ours 1HD" tvg-logo="" group-title="Adults",奥视频道1 Ours 1HD
@@ -4473,6 +4493,8 @@ http://iptvpro.pw:35451//live/3582251457/4975354955/26638.ts
 http://iptvpro.pw:35451//live/3582251457/4975354955/26639.ts
 #EXTINF:-1 tvg-id="" tvg-name="Wired Pussy" tvg-logo="" group-title="Adults",Wired Pussy
 http://iptvpro.pw:35451//live/3582251457/4975354955/26640.ts
+#EXTINF:-1 tvg-id="" tvg-name="突尼斯炮王gattouz0" tvg-logo="" group-title="Adults",突尼斯炮王gattouz0
+http://iptvpro.pw:35451//live/3582251457/4975354955/254259.ts
 #EXTINF:-1 tvg-id="" tvg-name="糖心传媒" tvg-logo="" group-title="Asia Adults LB",糖心传媒
 http://iptvpro.pw:35451//live/3582251457/4975354955/251145.ts
 #EXTINF:-1 tvg-id="" tvg-name="新日本无码-2" tvg-logo="" group-title="Asia Adults LB",新日本无码-2
